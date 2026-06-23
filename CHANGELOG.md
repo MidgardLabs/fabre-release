@@ -1,5 +1,44 @@
 # 更新日志
 
+## v0.38.0 (2026-06-23)
+
+### 新增
+
+- 实现 `@reloadscript` 管理员指令: 重新载入 NPC 脚本
+- 实现装备鉴定系统: 打开鉴定列表并批量鉴定未鉴定物品
+- 实现 `@identify`, `@identifyall` 管理员指令: 管理物品鉴定
+- 实现 `@makeegg` 管理员指令: 创建有效宠物蛋
+- 实现 `@monsterignore` 管理员指令: 切换自身攻击免疫
+- 实现宠物孵化和捕捉脚本指令: `birthpet`, `catchpet`
+- 实现宠物自动加成脚本指令: `petautobonus`, `petautobonus2`
+- 实现 `petautobonus3` 脚本指令: 按技能触发宠物自动加成
+- 实现进度条脚本指令: `progressbar`, `progressbar_npc`
+- 实现物品脚本指令: `itemskill`, `identifyall`
+- 实现技能脚本指令: `skill`, `addtoskill`
+- 实现魔物清理脚本指令: `killmonster`, `killmonsterall`
+- 实现技能阻挡脚本指令: `pcblockskill`, `unitblockskill`
+- 实现随机选项脚本执行: 物品随机属性可触发脚本效果
+- 实现玩家脚本参数: 属性, 经验, 移动次数与改名次数
+- 实现 `idletime_option` 配置项: 控制哪些操作刷新玩家 idle
+- 实现 `idle_no_share` 配置项: 排除闲置队员均分
+- 实现 `idle_no_autoloot` 配置项: 禁用闲置角色自动拾取
+- 实现 `client_reshuffle_dice` 配置项: 服务端重随机骰子表情
+
+### 修复
+
+- 修复苍蝇翅膀和同类传送技能无法传送的问题
+- 修复跨服广播触发 map server 崩溃的问题
+- 修复本地脚本函数裸调用被误判为变量的问题
+- 修复脚本布尔常量未注册导致编译失败的问题
+- 修复脚本挂起恢复后对话流程异常的问题
+- 修复零时长状态被当作永久状态的问题
+- 修复 MySQL 后端读取脚本数据时兼容异常的问题
+
+### 优化
+
+- 优化 `@item`, `@item2` 管理员指令: 创建宠物蛋时绑定宠物数据
+- 优化 NPC 脚本加载: 自动处理常见脚本文件编码
+
 ## v0.37.0 (2026-06-17)
 
 ### 新增
