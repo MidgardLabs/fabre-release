@@ -1,5 +1,35 @@
 [
   {
+    "version": "0.39.0",
+    "date": "2026-06-27",
+    "changes": [
+      {
+        "type": "feature",
+        "description": "实现装备套装系统 (Item Combo): 装备组合可触发额外属性"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `@reloaditemdb` 管理员指令: 热重载物品数据库"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `restricted` 地图标记: 配置地图的 zone 限制位"
+      },
+      {
+        "type": "feature",
+        "description": "实现装备地图限制: 按 zone 禁止指定装备穿戴"
+      },
+      {
+        "type": "fix",
+        "description": "修复装备加成未正确显示在属性面板的问题"
+      },
+      {
+        "type": "fix",
+        "description": "修复投掷物品无法触发治疗和状态效果的问题"
+      }
+    ]
+  },
+  {
     "version": "0.38.0",
     "date": "2026-06-23",
     "changes": [

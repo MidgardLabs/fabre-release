@@ -1,5 +1,5 @@
 {
-  "version": "0.38.0",
+  "version": "0.39.0",
   "groups": [
     {
       "name": "登录服务器",
@@ -322,7 +322,7 @@
         },
         {
           "title": "套装组合效果（Item Combo）",
-          "status": "planned"
+          "status": "done"
         },
         {
           "title": "时装外观覆盖",
@@ -1208,7 +1208,7 @@
           "status": "done"
         },
         {
-          "title": "管理员指令集 125/290",
+          "title": "管理员指令集 126/290",
           "status": "in-progress"
         },
         {
@@ -1281,7 +1281,7 @@
           "status": "done"
         },
         {
-          "title": "内置指令集 339/605",
+          "title": "内置指令集 340/605",
           "status": "in-progress"
         },
         {
