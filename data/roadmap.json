@@ -1,5 +1,5 @@
 {
-  "version": "0.39.0",
+  "version": "0.40.0",
   "groups": [
     {
       "name": "登录服务器",
@@ -321,7 +321,7 @@
           "status": "planned"
         },
         {
-          "title": "套装组合效果（Item Combo）",
+          "title": "物品套装组合效果",
           "status": "done"
         },
         {
@@ -618,31 +618,88 @@
       ]
     },
     {
-      "name": "地图服务器 · 技能",
+      "name": "地图服务器 · 一转职业技能",
       "items": [
         {
-          "title": "技能树重算",
-          "status": "done"
-        },
-        {
-          "title": "主动技能施放",
+          "title": "剑士 8/10",
           "status": "in-progress"
         },
         {
-          "title": "地面技能",
-          "status": "planned"
-        },
-        {
-          "title": "辅助技能",
+          "title": "法师 7/14",
           "status": "in-progress"
         },
         {
-          "title": "技能冷却",
+          "title": "弓箭手 3/7",
+          "status": "in-progress"
+        },
+        {
+          "title": "服事 8/15",
+          "status": "in-progress"
+        },
+        {
+          "title": "商人 5/12",
+          "status": "in-progress"
+        },
+        {
+          "title": "盗贼 3/10",
+          "status": "in-progress"
+        }
+      ]
+    },
+    {
+      "name": "地图服务器 · 二转职业技能",
+      "items": [
+        {
+          "title": "骑士 0/12",
           "status": "planned"
         },
         {
-          "title": "技能伤害结算",
-          "status": "done"
+          "title": "牧师 2/19",
+          "status": "in-progress"
+        },
+        {
+          "title": "巫师 0/14",
+          "status": "planned"
+        },
+        {
+          "title": "铁匠 0/24",
+          "status": "planned"
+        },
+        {
+          "title": "猎人 1/19",
+          "status": "in-progress"
+        },
+        {
+          "title": "刺客 0/12",
+          "status": "planned"
+        },
+        {
+          "title": "十字军 2/19",
+          "status": "in-progress"
+        },
+        {
+          "title": "武僧 0/17",
+          "status": "planned"
+        },
+        {
+          "title": "贤者 0/25",
+          "status": "planned"
+        },
+        {
+          "title": "流氓 3/21",
+          "status": "in-progress"
+        },
+        {
+          "title": "炼金术士 0/20",
+          "status": "planned"
+        },
+        {
+          "title": "吟游诗人 0/19",
+          "status": "planned"
+        },
+        {
+          "title": "舞娘 0/19",
+          "status": "planned"
         }
       ]
     },
@@ -1208,7 +1265,7 @@
           "status": "done"
         },
         {
-          "title": "管理员指令集 126/290",
+          "title": "管理员指令集 131/290",
           "status": "in-progress"
         },
         {
@@ -1281,12 +1338,12 @@
           "status": "done"
         },
         {
-          "title": "内置指令集 340/605",
+          "title": "内置指令集 341/605",
           "status": "in-progress"
         },
         {
           "title": "角色生命周期事件（OnPCLogin）",
-          "status": "planned"
+          "status": "done"
         },
         {
           "title": "NPC 生命周期事件（OnInit）",

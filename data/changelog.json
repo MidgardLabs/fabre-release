@@ -1,5 +1,139 @@
 [
   {
+    "version": "0.40.0",
+    "date": "2026-07-04",
+    "changes": [
+      {
+        "type": "feature",
+        "description": "实现主动技能完整流程: 咏唱, 后摇, 消耗, 冷却与地面效果"
+      },
+      {
+        "type": "feature",
+        "description": "实现技能冷却持久化: 角色重新登录后延续剩余冷却"
+      },
+      {
+        "type": "feature",
+        "description": "实现剑士 8 个技能: 狂击, 挑衅, 怒爆等"
+      },
+      {
+        "type": "feature",
+        "description": "实现魔法师 7 个技能: 火箭术, 冰冻术, 雷爆术等"
+      },
+      {
+        "type": "feature",
+        "description": "实现服事 8 个技能: 治愈术, 加速术, 传送之阵等"
+      },
+      {
+        "type": "feature",
+        "description": "实现商人 5 个技能: 低价买进, 高价卖出, 金钱攻击等"
+      },
+      {
+        "type": "feature",
+        "description": "实现弓箭手系 4 个技能: 二连矢, 鹗枭之眼, 定位陷阱等"
+      },
+      {
+        "type": "feature",
+        "description": "实现盗贼 3 个技能: 偷窃, 隐匿, 残影"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `@skillon`, `@skilloff` 管理员指令: 切换当前地图技能限制"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `@allskill` 管理员指令: 学习全部技能"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `@questskill` 管理员指令: 学习指定任务技能"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `@lostskill` 管理员指令: 遗忘已习得的任务技能"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `noskill` 地图标记: 禁止玩家主动使用技能"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `loadevent` 地图标记: 进入地图后触发 `OnPCLoadMapEvent`"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `job_noenter_map` 数据库: 按地图限制职业进入"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `jobcanentermap` 脚本指令: 判断职业能否进入地图"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `skill_nocast_db` 数据库: 按地图限制技能施放"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `status_disabled` 数据库: 按地图限制状态效果"
+      },
+      {
+        "type": "feature",
+        "description": "实现商店价格下限配置项: `min_shop_buy`, `min_shop_sell`"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `guild_skill_relog_type` 配置项: 控制公会技能重登冷却"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `atcommand_levelup_events` 配置项: 控制 GM 升级事件"
+      },
+      {
+        "type": "fix",
+        "description": "修复角色删除后关联数据残留的问题"
+      },
+      {
+        "type": "fix",
+        "description": "修复转职等级变量保存失败后可能丢失的问题"
+      },
+      {
+        "type": "fix",
+        "description": "修复转职后资源面板未及时同步的问题"
+      },
+      {
+        "type": "fix",
+        "description": "修复旧版本客户端背包和 NPC 商店列表错位的问题"
+      },
+      {
+        "type": "fix",
+        "description": "修复传送后首次移动状态异常的问题"
+      },
+      {
+        "type": "fix",
+        "description": "修复移动硬直后角色可能快进滑动的问题"
+      },
+      {
+        "type": "fix",
+        "description": "修复登录 / 死亡后移动速度状态同步异常的问题"
+      },
+      {
+        "type": "fix",
+        "description": "修复魔物攻击和移动时序异常的问题"
+      },
+      {
+        "type": "fix",
+        "description": "修复角色基础属性面板显示异常的问题"
+      },
+      {
+        "type": "fix",
+        "description": "修复脚本一元正号表达式编译失败的问题"
+      },
+      {
+        "type": "fix",
+        "description": "修复异常短包可能导致服务端崩溃的问题"
+      }
+    ]
+  },
+  {
     "version": "0.39.0",
     "date": "2026-06-27",
     "changes": [
