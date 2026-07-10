@@ -1,5 +1,5 @@
 {
-  "version": "0.40.0",
+  "version": "0.41.0",
   "groups": [
     {
       "name": "登录服务器",
@@ -621,28 +621,28 @@
       "name": "地图服务器 · 一转职业技能",
       "items": [
         {
-          "title": "剑士 8/10",
-          "status": "in-progress"
+          "title": "剑士 10/10",
+          "status": "done"
         },
         {
-          "title": "法师 7/14",
-          "status": "in-progress"
+          "title": "法师 14/14",
+          "status": "done"
         },
         {
-          "title": "弓箭手 3/7",
-          "status": "in-progress"
+          "title": "弓箭手 7/7",
+          "status": "done"
         },
         {
-          "title": "服事 8/15",
-          "status": "in-progress"
+          "title": "服事 15/15",
+          "status": "done"
         },
         {
-          "title": "商人 5/12",
-          "status": "in-progress"
+          "title": "商人 12/12",
+          "status": "done"
         },
         {
-          "title": "盗贼 3/10",
-          "status": "in-progress"
+          "title": "盗贼 10/10",
+          "status": "done"
         }
       ]
     },
@@ -674,7 +674,7 @@
           "status": "planned"
         },
         {
-          "title": "十字军 2/19",
+          "title": "十字军 4/19",
           "status": "in-progress"
         },
         {
@@ -1265,7 +1265,7 @@
           "status": "done"
         },
         {
-          "title": "管理员指令集 131/290",
+          "title": "管理员指令集 134/290",
           "status": "in-progress"
         },
         {
