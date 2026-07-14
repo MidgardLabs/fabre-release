@@ -1,5 +1,63 @@
 [
   {
+    "version": "0.42.0",
+    "date": "2026-07-14",
+    "changes": [
+      {
+        "type": "feature",
+        "description": "实现装备升阶系统: 材料预览 / 随机升阶 / 公告与官方兑换内容"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `@grade`, `@enchantgradeui` 管理员指令: 调整升阶等级或打开升阶界面"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `getenchantgrade`, `enchantgradeui` 脚本指令: 读取升阶等级或打开升阶界面"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `packetver_variant` 配置项: 能够配置不同的客户端类型"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `@who`, `@who2`, `@who3` 管理员指令: 查询在线玩家的队伍 / 职业 / 位置"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `@whomap`, `@whomap2`, `@whomap3` 管理员指令: 按地图筛选在线玩家信息"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `@misceffect` 管理员指令: 在目标身上播放离散通知特效"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `@displaystatus` 管理员指令: 向目标显示客户端状态图标"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `@healap` 管理员指令: 恢复或调整目标 AP"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `@reset` 管理员指令: 按顺序重置属性点与技能点"
+      },
+      {
+        "type": "fix",
+        "description": "修复角色删除或移动槽位中途失败时可能留下半状态的问题"
+      },
+      {
+        "type": "fix",
+        "description": "修复 `getequipid` 等指令在显式目标下可能回读当前角色的问题"
+      },
+      {
+        "type": "improve",
+        "description": "优化管理员指令公开手册: 按完整指令名可直接检索正式说明"
+      }
+    ]
+  },
+  {
     "version": "0.41.0",
     "date": "2026-07-10",
     "changes": [

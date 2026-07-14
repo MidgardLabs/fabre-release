@@ -1,5 +1,5 @@
 {
-  "version": "0.41.0",
+  "version": "0.42.0",
   "groups": [
     {
       "name": "登录服务器",
@@ -141,7 +141,7 @@
         },
         {
           "title": "MaxHP/MaxSP 计算",
-          "status": "planned"
+          "status": "in-progress"
         },
         {
           "title": "被动技能加成",
@@ -257,23 +257,23 @@
       "items": [
         {
           "title": "手推车列表呈现",
-          "status": "planned"
+          "status": "done"
         },
         {
           "title": "背包存入手推车",
-          "status": "planned"
+          "status": "done"
         },
         {
           "title": "手推车取出到背包",
-          "status": "planned"
+          "status": "done"
         },
         {
           "title": "手推车存入仓库",
-          "status": "planned"
+          "status": "done"
         },
         {
           "title": "仓库取出到手推车",
-          "status": "planned"
+          "status": "done"
         }
       ]
     },
@@ -314,7 +314,7 @@
         },
         {
           "title": "装备升阶（Enchantgrade）",
-          "status": "planned"
+          "status": "done"
         },
         {
           "title": "装备改造（Item Reform）",
@@ -506,8 +506,8 @@
           "status": "done"
         },
         {
-          "title": "公会技能",
-          "status": "planned"
+          "title": "公会技能分配",
+          "status": "done"
         },
         {
           "title": "城战系统",
@@ -533,10 +533,6 @@
         {
           "title": "魔物攻击判定",
           "status": "done"
-        },
-        {
-          "title": "魔物技能",
-          "status": "in-progress"
         },
         {
           "title": "死亡与掉落",
@@ -618,6 +614,51 @@
       ]
     },
     {
+      "name": "地图服务器 · 技能总览",
+      "items": [
+        {
+          "title": "一转职业技能 68/68",
+          "status": "done"
+        },
+        {
+          "title": "二转职业技能 10/223",
+          "status": "in-progress"
+        },
+        {
+          "title": "三转职业技能 0/266",
+          "status": "planned"
+        },
+        {
+          "title": "四转职业技能 0/192",
+          "status": "planned"
+        },
+        {
+          "title": "多兰族职业技能 0/54",
+          "status": "planned"
+        },
+        {
+          "title": "NPC 技能 2/173",
+          "status": "in-progress"
+        },
+        {
+          "title": "公会技能 5/20",
+          "status": "in-progress"
+        },
+        {
+          "title": "生命体技能 0/58",
+          "status": "planned"
+        },
+        {
+          "title": "佣兵技能 0/41",
+          "status": "planned"
+        },
+        {
+          "title": "元素精灵技能 0/51",
+          "status": "planned"
+        }
+      ]
+    },
+    {
       "name": "地图服务器 · 一转职业技能",
       "items": [
         {
@@ -625,7 +666,7 @@
           "status": "done"
         },
         {
-          "title": "法师 14/14",
+          "title": "魔法师 14/14",
           "status": "done"
         },
         {
@@ -654,7 +695,7 @@
           "status": "planned"
         },
         {
-          "title": "牧师 2/19",
+          "title": "祭司 2/19",
           "status": "in-progress"
         },
         {
@@ -678,7 +719,7 @@
           "status": "in-progress"
         },
         {
-          "title": "武僧 0/17",
+          "title": "武道家 0/17",
           "status": "planned"
         },
         {
@@ -690,7 +731,7 @@
           "status": "in-progress"
         },
         {
-          "title": "炼金术士 0/20",
+          "title": "炼金术师 0/20",
           "status": "planned"
         },
         {
@@ -699,6 +740,220 @@
         },
         {
           "title": "舞娘 0/19",
+          "status": "planned"
+        }
+      ]
+    },
+    {
+      "name": "地图服务器 · 三转职业技能",
+      "items": [
+        {
+          "title": "卢恩骑士 0/13",
+          "status": "planned"
+        },
+        {
+          "title": "咒术士 0/25",
+          "status": "planned"
+        },
+        {
+          "title": "游侠 0/24",
+          "status": "planned"
+        },
+        {
+          "title": "大主教 0/22",
+          "status": "planned"
+        },
+        {
+          "title": "机械工匠 0/31",
+          "status": "planned"
+        },
+        {
+          "title": "十字斩首者 0/19",
+          "status": "planned"
+        },
+        {
+          "title": "皇家禁卫队 0/21",
+          "status": "planned"
+        },
+        {
+          "title": "妖术师 0/28",
+          "status": "planned"
+        },
+        {
+          "title": "宫廷乐师 0/25",
+          "status": "planned"
+        },
+        {
+          "title": "浪姬舞者 0/25",
+          "status": "planned"
+        },
+        {
+          "title": "修罗 0/24",
+          "status": "planned"
+        },
+        {
+          "title": "魅影追踪者 0/23",
+          "status": "planned"
+        },
+        {
+          "title": "基因学者 0/19",
+          "status": "planned"
+        }
+      ]
+    },
+    {
+      "name": "地图服务器 · 四转职业技能",
+      "items": [
+        {
+          "title": "卢恩龙爵 0/13",
+          "status": "planned"
+        },
+        {
+          "title": "机甲神匠 0/17",
+          "status": "planned"
+        },
+        {
+          "title": "十字影武 0/11",
+          "status": "planned"
+        },
+        {
+          "title": "禁咒魔导士 0/19",
+          "status": "planned"
+        },
+        {
+          "title": "枢机主教 0/17",
+          "status": "planned"
+        },
+        {
+          "title": "风鹰狩猎者 0/14",
+          "status": "planned"
+        },
+        {
+          "title": "帝国圣卫军 0/16",
+          "status": "planned"
+        },
+        {
+          "title": "生命缔造者 0/17",
+          "status": "planned"
+        },
+        {
+          "title": "深渊追迹者 0/16",
+          "status": "planned"
+        },
+        {
+          "title": "元素支配者 0/18",
+          "status": "planned"
+        },
+        {
+          "title": "圣裁者 0/18",
+          "status": "planned"
+        },
+        {
+          "title": "天籁颂者 0/16",
+          "status": "planned"
+        },
+        {
+          "title": "乐之舞灵 0/16",
+          "status": "planned"
+        }
+      ]
+    },
+    {
+      "name": "地图服务器 · 多兰族职业技能",
+      "items": [
+        {
+          "title": "召唤师 0/36",
+          "status": "planned"
+        },
+        {
+          "title": "魂灵师 0/18",
+          "status": "planned"
+        }
+      ]
+    },
+    {
+      "name": "地图服务器 · 生命体技能",
+      "items": [
+        {
+          "title": "丽芙 0/4",
+          "status": "planned"
+        },
+        {
+          "title": "艾咪斯可鲁 0/4",
+          "status": "planned"
+        },
+        {
+          "title": "飞里乐 0/4",
+          "status": "planned"
+        },
+        {
+          "title": "巴尼米乐斯 0/4",
+          "status": "planned"
+        },
+        {
+          "title": "艾萝 0/8",
+          "status": "planned"
+        },
+        {
+          "title": "巴耶黎 0/9",
+          "status": "planned"
+        },
+        {
+          "title": "赛拉 0/7",
+          "status": "planned"
+        },
+        {
+          "title": "迪尔特 0/8",
+          "status": "planned"
+        },
+        {
+          "title": "伊琳诺雅 0/10",
+          "status": "planned"
+        }
+      ]
+    },
+    {
+      "name": "地图服务器 · 佣兵技能",
+      "items": [
+        {
+          "title": "剑士佣兵 0/6",
+          "status": "planned"
+        },
+        {
+          "title": "弓箭手佣兵 0/9",
+          "status": "planned"
+        },
+        {
+          "title": "枪兵佣兵 0/6",
+          "status": "planned"
+        },
+        {
+          "title": "通用技能 0/20",
+          "status": "planned"
+        }
+      ]
+    },
+    {
+      "name": "地图服务器 · 元素精灵技能",
+      "items": [
+        {
+          "title": "火元素精灵 0/12",
+          "status": "planned"
+        },
+        {
+          "title": "水元素精灵 0/12",
+          "status": "planned"
+        },
+        {
+          "title": "风元素精灵 0/12",
+          "status": "planned"
+        },
+        {
+          "title": "地元素精灵 0/12",
+          "status": "planned"
+        },
+        {
+          "title": "毒元素精灵 0/3",
           "status": "planned"
         }
       ]
@@ -809,7 +1064,7 @@
           "status": "planned"
         },
         {
-          "title": "生命体技能",
+          "title": "生命体技能分配",
           "status": "planned"
         },
         {
@@ -830,7 +1085,7 @@
           "status": "planned"
         },
         {
-          "title": "佣兵技能",
+          "title": "佣兵技能分配",
           "status": "planned"
         }
       ]
@@ -847,7 +1102,7 @@
           "status": "planned"
         },
         {
-          "title": "元素精灵技能",
+          "title": "元素精灵技能分配",
           "status": "planned"
         }
       ]
@@ -857,19 +1112,19 @@
       "items": [
         {
           "title": "摆摊开设",
-          "status": "planned"
+          "status": "done"
         },
         {
           "title": "摆摊浏览与购买",
-          "status": "planned"
+          "status": "done"
         },
         {
           "title": "收购开设",
-          "status": "planned"
+          "status": "done"
         },
         {
           "title": "收购浏览与出售",
-          "status": "planned"
+          "status": "done"
         },
         {
           "title": "搜索商店",
@@ -1265,7 +1520,7 @@
           "status": "done"
         },
         {
-          "title": "管理员指令集 134/290",
+          "title": "管理员指令集 146/290",
           "status": "in-progress"
         },
         {
@@ -1338,7 +1593,7 @@
           "status": "done"
         },
         {
-          "title": "内置指令集 341/605",
+          "title": "内置指令集 343/605",
           "status": "in-progress"
         },
         {
