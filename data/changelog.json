@@ -1,5 +1,75 @@
 [
   {
+    "version": "0.43.0",
+    "date": "2026-07-17",
+    "changes": [
+      {
+        "type": "feature",
+        "description": "实现战斗属性相克结算: 覆盖物理 / 魔法 / 特殊伤害与技能效果"
+      },
+      {
+        "type": "feature",
+        "description": "实现时装装备外观覆盖系统: 时装优先显示, 脱下后恢复普通装备"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `nocostume` 地图标记: 隐藏地图内玩家的时装装备外观"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `@changelook` 管理员指令: 临时修改玩家的指定外观部位"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `@follow` 管理员指令: 让角色持续跟随指定在线玩家"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `pcfollow`, `pcstopfollow` 脚本指令: 控制玩家开始或停止跟随"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `partial_name_scan` 配置项: 控制 `@follow` 是否接受玩家名唯一前缀"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `getitembound` 脚本指令与 `BOUND_*` 常量: 发放指定绑定类型的已鉴定物品"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `getexp2` 脚本指令: 不受任务倍率 / 公会税 / 单次上限影响地增减经验"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `checkcart` 脚本指令: 查询玩家是否正在使用手推车"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `mf_registration_group_id` 配置项: 指定 `_M` / `_F` 注册账号的权限组"
+      },
+      {
+        "type": "fix",
+        "description": "修复 DNAT 部署未设置 `public_ip` 时客户端收到容器私网地址的问题"
+      },
+      {
+        "type": "fix",
+        "description": "修复账号权限组编号大于 127 时登录后权限失效的问题"
+      },
+      {
+        "type": "fix",
+        "description": "修复 `mob_warp` 关闭时魔物仍会触发 NPC 传送点的问题"
+      },
+      {
+        "type": "fix",
+        "description": "修复显式 `0,0` 单格触摸区域 NPC 无法触发 `OnTouch` 的问题"
+      },
+      {
+        "type": "improve",
+        "description": "优化运营日志: 本地化以物易物 NPC 同步信息, 明确服务器清单发送动作"
+      }
+    ]
+  },
+  {
     "version": "0.42.0",
     "date": "2026-07-14",
     "changes": [

@@ -1,5 +1,5 @@
 {
-  "version": "0.42.0",
+  "version": "0.43.0",
   "groups": [
     {
       "name": "登录服务器",
@@ -326,7 +326,7 @@
         },
         {
           "title": "时装外观覆盖",
-          "status": "planned"
+          "status": "done"
         },
         {
           "title": "装备鉴定",
@@ -621,7 +621,7 @@
           "status": "done"
         },
         {
-          "title": "二转职业技能 10/223",
+          "title": "二转职业技能 11/223",
           "status": "in-progress"
         },
         {
@@ -699,8 +699,8 @@
           "status": "in-progress"
         },
         {
-          "title": "巫师 0/14",
-          "status": "planned"
+          "title": "巫师 1/14",
+          "status": "in-progress"
         },
         {
           "title": "铁匠 0/24",
@@ -723,8 +723,8 @@
           "status": "planned"
         },
         {
-          "title": "贤者 0/25",
-          "status": "planned"
+          "title": "贤者 1/25",
+          "status": "in-progress"
         },
         {
           "title": "流氓 3/21",
@@ -1520,7 +1520,7 @@
           "status": "done"
         },
         {
-          "title": "管理员指令集 146/290",
+          "title": "管理员指令集 147/290",
           "status": "in-progress"
         },
         {
@@ -1593,7 +1593,7 @@
           "status": "done"
         },
         {
-          "title": "内置指令集 343/605",
+          "title": "内置指令集 347/605",
           "status": "in-progress"
         },
         {
