@@ -1,5 +1,5 @@
 {
-  "version": "0.45.0",
+  "version": "0.46.0",
   "groups": [
     {
       "name": "登录服务器",
@@ -113,7 +113,7 @@
       ]
     },
     {
-      "name": "地图服务器 · 状态面板",
+      "name": "地图服务器 · 角色成长",
       "items": [
         {
           "title": "基础状态面板",
@@ -121,6 +121,10 @@
         },
         {
           "title": "经验值显示",
+          "status": "done"
+        },
+        {
+          "title": "玩家自然恢复",
           "status": "done"
         },
         {
@@ -190,39 +194,19 @@
       "name": "地图服务器 · 道具租赁",
       "items": [
         {
-          "title": "脚本发放租赁物品",
+          "title": "租赁物品发放",
           "status": "done"
         },
         {
-          "title": "客户端倒计时下发",
+          "title": "租期计时与恢复",
           "status": "done"
         },
         {
-          "title": "过期自动消除",
+          "title": "到期自动回收",
           "status": "done"
         },
         {
-          "title": "重新登录恢复计时",
-          "status": "done"
-        },
-        {
-          "title": "NPC 商店拒绝出售租赁物品",
-          "status": "done"
-        },
-        {
-          "title": "交易拒绝租赁物品",
-          "status": "done"
-        },
-        {
-          "title": "邮件附件拒绝租赁物品",
-          "status": "done"
-        },
-        {
-          "title": "商城发放租赁物品",
-          "status": "done"
-        },
-        {
-          "title": "公会仓库拒绝租赁物品",
+          "title": "跨系统流通限制",
           "status": "done"
         }
       ]
@@ -305,22 +289,6 @@
           "status": "done"
         },
         {
-          "title": "精炼值增减（经典）",
-          "status": "done"
-        },
-        {
-          "title": "精炼 UI（Refine UI）",
-          "status": "done"
-        },
-        {
-          "title": "装备升阶（Enchantgrade）",
-          "status": "done"
-        },
-        {
-          "title": "装备改造（Item Reform）",
-          "status": "planned"
-        },
-        {
           "title": "物品套装组合效果",
           "status": "done"
         },
@@ -333,6 +301,10 @@
           "status": "done"
         },
         {
+          "title": "装备破损与修理",
+          "status": "in-progress"
+        },
+        {
           "title": "装备脚本执行",
           "status": "done"
         },
@@ -343,6 +315,27 @@
         {
           "title": "随机选项脚本",
           "status": "done"
+        }
+      ]
+    },
+    {
+      "name": "地图服务器 · 装备强化",
+      "items": [
+        {
+          "title": "精炼值增减（经典）",
+          "status": "done"
+        },
+        {
+          "title": "精炼界面（Refine UI）",
+          "status": "done"
+        },
+        {
+          "title": "装备升阶（Enchantgrade）",
+          "status": "done"
+        },
+        {
+          "title": "装备改造（Item Reform）",
+          "status": "planned"
         }
       ]
     },
@@ -397,6 +390,10 @@
         {
           "title": "GM 广播",
           "status": "done"
+        },
+        {
+          "title": "频道系统",
+          "status": "planned"
         }
       ]
     },
@@ -508,9 +505,22 @@
         {
           "title": "公会技能分配",
           "status": "done"
+        }
+      ]
+    },
+    {
+      "name": "地图服务器 · 社会关系",
+      "items": [
+        {
+          "title": "氏族系统",
+          "status": "planned"
         },
         {
-          "title": "城战系统",
+          "title": "结婚系统",
+          "status": "planned"
+        },
+        {
+          "title": "领养系统",
           "status": "planned"
         }
       ]
@@ -533,6 +543,10 @@
         {
           "title": "魔物攻击判定",
           "status": "done"
+        },
+        {
+          "title": "魔物技能 AI",
+          "status": "in-progress"
         },
         {
           "title": "死亡与掉落",
@@ -614,6 +628,64 @@
       ]
     },
     {
+      "name": "地图服务器 · 竞技",
+      "items": [
+        {
+          "title": "PVP 对战规则",
+          "status": "in-progress"
+        },
+        {
+          "title": "PVP 计分排名",
+          "status": "planned"
+        },
+        {
+          "title": "GvG 战斗规则",
+          "status": "in-progress"
+        },
+        {
+          "title": "城战与城堡归属",
+          "status": "planned"
+        },
+        {
+          "title": "战场匹配队列",
+          "status": "planned"
+        },
+        {
+          "title": "战场队伍与比赛",
+          "status": "planned"
+        },
+        {
+          "title": "决斗系统",
+          "status": "planned"
+        }
+      ]
+    },
+    {
+      "name": "地图服务器 · 技能框架",
+      "items": [
+        {
+          "title": "技能树与加点",
+          "status": "done"
+        },
+        {
+          "title": "主动技能施放",
+          "status": "done"
+        },
+        {
+          "title": "地面技能单元",
+          "status": "in-progress"
+        },
+        {
+          "title": "玩家技能冷却",
+          "status": "done"
+        },
+        {
+          "title": "技能伤害结算",
+          "status": "done"
+        }
+      ]
+    },
+    {
       "name": "地图服务器 · 技能总览",
       "items": [
         {
@@ -634,6 +706,10 @@
         },
         {
           "title": "多兰族职业技能 0/54",
+          "status": "planned"
+        },
+        {
+          "title": "扩展职业技能",
           "status": "planned"
         },
         {
@@ -867,6 +943,27 @@
         },
         {
           "title": "魂灵师 0/18",
+          "status": "planned"
+        }
+      ]
+    },
+    {
+      "name": "地图服务器 · 扩展职业技能",
+      "items": [
+        {
+          "title": "初学者系技能",
+          "status": "planned"
+        },
+        {
+          "title": "跆拳系技能",
+          "status": "planned"
+        },
+        {
+          "title": "枪手系技能",
+          "status": "planned"
+        },
+        {
+          "title": "忍者系技能",
           "status": "planned"
         }
       ]
@@ -1157,11 +1254,15 @@
       "name": "地图服务器 · 制造",
       "items": [
         {
-          "title": "制造系统（锻造/药水/料理/符文石）",
+          "title": "锻造、药水与料理",
           "status": "planned"
         },
         {
-          "title": "制造 UI 界面（四转后期）",
+          "title": "符文石制造",
+          "status": "planned"
+        },
+        {
+          "title": "四转制造界面",
           "status": "planned"
         }
       ]
@@ -1217,14 +1318,6 @@
       "name": "地图服务器 · 任务",
       "items": [
         {
-          "title": "任务数据库加载",
-          "status": "done"
-        },
-        {
-          "title": "玩家任务持久化",
-          "status": "done"
-        },
-        {
           "title": "任务接取与完成",
           "status": "done"
         },
@@ -1233,31 +1326,19 @@
           "status": "done"
         },
         {
-          "title": "任务进度同步",
+          "title": "任务进度与登录同步",
           "status": "done"
         },
         {
-          "title": "登录任务列表推送",
+          "title": "魔物击杀进度",
           "status": "done"
         },
         {
-          "title": "魔物击杀进度联动",
+          "title": "任务脚本与管理",
           "status": "done"
         },
         {
-          "title": "任务脚本指令",
-          "status": "done"
-        },
-        {
-          "title": "NPC 头顶任务标记",
-          "status": "done"
-        },
-        {
-          "title": "任务管理 GM 指令",
-          "status": "done"
-        },
-        {
-          "title": "任务日志窗口打开",
+          "title": "任务日志与标记",
           "status": "done"
         },
         {
@@ -1278,15 +1359,11 @@
       "name": "地图服务器 · 成就与称号",
       "items": [
         {
-          "title": "成就数据库加载",
+          "title": "成就判定与奖励",
           "status": "planned"
         },
         {
-          "title": "成就达成判定与奖励",
-          "status": "planned"
-        },
-        {
-          "title": "成就 UI 与进度同步",
+          "title": "成就进度与界面",
           "status": "planned"
         },
         {
@@ -1346,10 +1423,6 @@
         {
           "title": "商店宠物蛋买卖",
           "status": "done"
-        },
-        {
-          "title": "以物易物数据库热重载",
-          "status": "done"
         }
       ]
     },
@@ -1382,50 +1455,39 @@
       "name": "地图服务器 · 签到系统",
       "items": [
         {
-          "title": "签到数据库加载",
+          "title": "签到周期与进度",
           "status": "planned"
         },
         {
-          "title": "签到 UI 开启与进度查询",
+          "title": "签到界面",
           "status": "planned"
         },
         {
-          "title": "签到奖励领取（邮件投递）",
+          "title": "签到奖励投递",
           "status": "planned"
         },
         {
-          "title": "登录自动弹出签到 UI",
-          "status": "planned"
-        },
-        {
-          "title": "签到跨期重置",
+          "title": "登录自动弹窗",
           "status": "planned"
         }
       ]
     },
     {
-      "name": "地图服务器 · 其他系统",
+      "name": "地图服务器 · 世界环境",
       "items": [
         {
           "title": "日夜循环",
           "status": "done"
         },
         {
-          "title": "氏族系统",
-          "status": "planned"
-        },
-        {
-          "title": "战场系统",
-          "status": "planned"
-        },
-        {
           "title": "天气特效",
           "status": "done"
-        },
-        {
-          "title": "快捷键保存",
-          "status": "done"
-        },
+        }
+      ]
+    },
+    {
+      "name": "地图服务器 · 经济服务",
+      "items": [
         {
           "title": "银行系统",
           "status": "done"
@@ -1435,44 +1497,59 @@
           "status": "planned"
         },
         {
-          "title": "结婚系统",
-          "status": "planned"
-        },
-        {
-          "title": "领养系统",
-          "status": "planned"
-        },
-        {
-          "title": "决斗系统",
-          "status": "planned"
-        },
-        {
-          "title": "坐骑系统",
-          "status": "planned"
-        },
-        {
-          "title": "猎鹰与战狼",
-          "status": "planned"
-        },
-        {
-          "title": "名声排名",
-          "status": "planned"
-        },
-        {
-          "title": "造型师",
-          "status": "planned"
-        },
-        {
           "title": "乐透大转盘",
           "status": "planned"
         },
         {
           "title": "VIP 系统",
           "status": "planned"
+        }
+      ]
+    },
+    {
+      "name": "地图服务器 · 排名与声望",
+      "items": [
+        {
+          "title": "职业名声榜",
+          "status": "planned"
         },
         {
-          "title": "反外挂验证码",
+          "title": "声望系统",
           "status": "planned"
+        }
+      ]
+    },
+    {
+      "name": "地图服务器 · 角色外观",
+      "items": [
+        {
+          "title": "快捷键保存",
+          "status": "done"
+        },
+        {
+          "title": "造型师",
+          "status": "planned"
+        }
+      ]
+    },
+    {
+      "name": "地图服务器 · 坐骑",
+      "items": [
+        {
+          "title": "商城租赁坐骑",
+          "status": "done"
+        },
+        {
+          "title": "骑士系职业坐骑",
+          "status": "done"
+        },
+        {
+          "title": "猎鹰与战狼",
+          "status": "in-progress"
+        },
+        {
+          "title": "龙骑与魔导机甲",
+          "status": "done"
         }
       ]
     },
@@ -1492,18 +1569,6 @@
           "status": "done"
         },
         {
-          "title": "终端彩色日志",
-          "status": "done"
-        },
-        {
-          "title": "文件日志轮转",
-          "status": "done"
-        },
-        {
-          "title": "游戏日志（拾取/交易）",
-          "status": "planned"
-        },
-        {
           "title": "公式引擎",
           "status": "done"
         },
@@ -1513,18 +1578,6 @@
         },
         {
           "title": "地图地形读取（GAT）",
-          "status": "done"
-        },
-        {
-          "title": "管理员指令框架",
-          "status": "done"
-        },
-        {
-          "title": "管理员指令集 184/288",
-          "status": "in-progress"
-        },
-        {
-          "title": "权限组系统",
           "status": "done"
         },
         {
@@ -1542,7 +1595,48 @@
       ]
     },
     {
-      "name": "脚本引擎",
+      "name": "运营工具与安全",
+      "items": [
+        {
+          "title": "终端彩色日志",
+          "status": "done"
+        },
+        {
+          "title": "文件日志轮转",
+          "status": "done"
+        },
+        {
+          "title": "游戏日志（拾取/交易）",
+          "status": "in-progress"
+        },
+        {
+          "title": "管理员指令框架",
+          "status": "done"
+        },
+        {
+          "title": "管理员指令集 164/288",
+          "status": "in-progress"
+        },
+        {
+          "title": "权限组系统",
+          "status": "done"
+        },
+        {
+          "title": "游戏数据热重载",
+          "status": "done"
+        },
+        {
+          "title": "以物易物数据库热重载",
+          "status": "done"
+        },
+        {
+          "title": "反外挂验证码",
+          "status": "planned"
+        }
+      ]
+    },
+    {
+      "name": "脚本引擎 · 核心",
       "items": [
         {
           "title": "脚本解析与编译",
@@ -1583,7 +1677,12 @@
         {
           "title": "脚本检查工具",
           "status": "done"
-        },
+        }
+      ]
+    },
+    {
+      "name": "脚本引擎 · 生态",
+      "items": [
         {
           "title": "rAthena 兼容覆盖率统计",
           "status": "done"
@@ -1593,7 +1692,7 @@
           "status": "done"
         },
         {
-          "title": "内置指令集 348/605",
+          "title": "脚本指令集 367/605",
           "status": "in-progress"
         },
         {

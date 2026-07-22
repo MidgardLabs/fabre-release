@@ -1,5 +1,155 @@
 [
   {
+    "version": "0.46.0",
+    "date": "2026-07-22",
+    "changes": [
+      {
+        "type": "feature",
+        "description": "实现 `@mount_peco`, `@mount2` 管理员指令: 切换职业或租赁坐骑"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `setoption` 脚本指令: 增加 / 移除角色的 `OPTION_*` 状态"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `setriding`, `setdragon` 脚本指令: 控制大嘴鸟 / 龙骑状态"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `setfalcon` 脚本指令: 控制猎鹰状态"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `setmounting`, `ismounting` 脚本指令: 控制 / 查询租赁坐骑状态"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `setmadogear` 脚本指令: 控制魔导机甲状态"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `hateffect`, `has_hateffect` 脚本指令: 控制 / 查询头饰与足迹特效"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `@size`, `@sizeall`, `@sizeguild` 管理员指令: 调整角色视觉体型并保持显示"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `setnpcdisplay` 脚本指令的 NPC 视觉体型参数"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `@monstersmall`, `@monsterbig` 管理员指令: 生成特殊体型魔物"
+      },
+      {
+        "type": "feature",
+        "description": "实现特殊体型魔物的属性 / 经验 / 掉率影响, 由 `mob_size_influence` 控制"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `@monster` 管理员指令的显示名查找与自定义名称"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `atc_spawn_quantity_limit` 配置项: 限制单次魔物生成数量"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `@storeall` 管理员指令: 将背包物品全部存入个人仓库"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `@stat_all` 管理员指令及四个别名: 同时调整六项基础属性"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `resetlvl` 脚本指令: 按模式重置角色等级 / 属性 / 技能"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `camerainfo` 脚本指令: 设置指定角色的相机距离 / 旋转 / 俯仰"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `makeitem` 脚本指令: 在指定地图坐标生成地面物品"
+      },
+      {
+        "type": "feature",
+        "description": "实现地面物品掉落光柱: 按 `DropEffect` 配置 / 随机词条数量显示"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `recovery` 脚本指令: 按角色 / 队伍 / 公会 / 地图 / 全服范围恢复或复活玩家"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `sc_end` 脚本指令: 结束单位的指定或全部状态变化"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `gvgon3`, `gvgoff3` 脚本指令: 启用 / 关闭指定地图的 `gvg_te` 标记"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `unitattack` 脚本指令: 令玩家 / 魔物攻击指定目标"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `unitstopattack` 脚本指令: 停止单位当前攻击"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `unitwalk` 脚本指令: 强制单位走到指定坐标"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `unitwalkto` 脚本指令: 强制玩家 / 魔物走向目标"
+      },
+      {
+        "type": "fix",
+        "description": "修复切换 `nocostume` 地图标记时客户端弹出无关地图提示的问题"
+      },
+      {
+        "type": "fix",
+        "description": "修复旧版本客户端无法正确接收地图属性的问题"
+      },
+      {
+        "type": "fix",
+        "description": "修复双持时 `bWeaponDamageRate` 使用错误武器类型的问题"
+      },
+      {
+        "type": "fix",
+        "description": "修复 Pre-Renewal 模式下 `bWeaponAtk` 未生效的问题"
+      },
+      {
+        "type": "fix",
+        "description": "修复重叠区域 NPC 触发顺序错误, 以及超大触摸区域无法触发的问题"
+      },
+      {
+        "type": "fix",
+        "description": "修复卸下盾牌时未取消盾咒施法的问题"
+      },
+      {
+        "type": "fix",
+        "description": "修复卸下右手武器后舞蹈 / 致命涂毒状态未按配置结束的问题"
+      },
+      {
+        "type": "fix",
+        "description": "修复 `@hide` 隐身及旧版本客户端手推车状态在重新登录后丢失的问题"
+      },
+      {
+        "type": "fix",
+        "description": "修复邮件长度异常时内容被截断后仍可能进入投递流程的问题"
+      },
+      {
+        "type": "fix",
+        "description": "修复角色属性超过职业上限后小幅降低时被错误重置的问题"
+      }
+    ]
+  },
+  {
     "version": "0.45.0",
     "date": "2026-07-20",
     "changes": [
