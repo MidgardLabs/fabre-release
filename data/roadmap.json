@@ -1,5 +1,5 @@
 {
-  "version": "0.46.0",
+  "version": "0.47.0",
   "groups": [
     {
       "name": "登录服务器",
@@ -50,7 +50,11 @@
           "status": "done"
         },
         {
-          "title": "删除角色（含预约删除）",
+          "title": "即时删除角色",
+          "status": "done"
+        },
+        {
+          "title": "预约删除角色",
           "status": "done"
         },
         {
@@ -75,7 +79,7 @@
         },
         {
           "title": "角色操作日志",
-          "status": "planned"
+          "status": "done"
         }
       ]
     },
@@ -124,10 +128,6 @@
           "status": "done"
         },
         {
-          "title": "玩家自然恢复",
-          "status": "done"
-        },
-        {
           "title": "职业转职",
           "status": "done"
         },
@@ -136,23 +136,19 @@
           "status": "done"
         },
         {
-          "title": "四转 Trait 加点",
+          "title": "职业等级加成",
           "status": "done"
         },
         {
-          "title": "四转 AP 支持",
-          "status": "planned"
+          "title": "四转特质加点",
+          "status": "done"
         },
         {
-          "title": "MaxHP/MaxSP 计算",
-          "status": "in-progress"
+          "title": "四转 AP 资源",
+          "status": "done"
         },
         {
-          "title": "被动技能加成",
-          "status": "planned"
-        },
-        {
-          "title": "职业加成（Job Bonus）",
+          "title": "HP/SP 自然恢复",
           "status": "done"
         }
       ]
@@ -231,7 +227,11 @@
           "status": "done"
         },
         {
-          "title": "公会仓库",
+          "title": "公会仓库访问",
+          "status": "done"
+        },
+        {
+          "title": "公会仓库存取",
           "status": "done"
         }
       ]
@@ -301,7 +301,11 @@
           "status": "done"
         },
         {
-          "title": "装备破损与修理",
+          "title": "装备破损",
+          "status": "in-progress"
+        },
+        {
+          "title": "装备修理",
           "status": "in-progress"
         },
         {
@@ -347,7 +351,11 @@
           "status": "done"
         },
         {
-          "title": "添加物品与 Zeny",
+          "title": "交易物品报价",
+          "status": "done"
+        },
+        {
+          "title": "交易 Zeny 报价",
           "status": "done"
         },
         {
@@ -417,7 +425,11 @@
           "status": "done"
         },
         {
-          "title": "修改经验/道具分配",
+          "title": "经验分配设置",
+          "status": "done"
+        },
+        {
+          "title": "道具分配设置",
           "status": "done"
         },
         {
@@ -467,7 +479,11 @@
       "name": "地图服务器 · 公会",
       "items": [
         {
-          "title": "创建与解散公会",
+          "title": "创建公会",
+          "status": "done"
+        },
+        {
+          "title": "解散公会",
           "status": "done"
         },
         {
@@ -479,11 +495,19 @@
           "status": "done"
         },
         {
-          "title": "离开与驱逐成员",
+          "title": "退出公会",
           "status": "done"
         },
         {
-          "title": "公会设置（职位/公告）",
+          "title": "驱逐成员",
+          "status": "done"
+        },
+        {
+          "title": "公会职位设置",
+          "status": "done"
+        },
+        {
+          "title": "公会公告设置",
           "status": "done"
         },
         {
@@ -495,8 +519,12 @@
           "status": "done"
         },
         {
-          "title": "联盟与敌对",
+          "title": "公会联盟",
           "status": "done"
+        },
+        {
+          "title": "公会敌对",
+          "status": "in-progress"
         },
         {
           "title": "公会经验",
@@ -512,7 +540,15 @@
       "name": "地图服务器 · 社会关系",
       "items": [
         {
-          "title": "氏族系统",
+          "title": "氏族成员关系",
+          "status": "planned"
+        },
+        {
+          "title": "氏族频道",
+          "status": "planned"
+        },
+        {
+          "title": "氏族固有效果",
           "status": "planned"
         },
         {
@@ -545,11 +581,19 @@
           "status": "done"
         },
         {
-          "title": "魔物技能 AI",
+          "title": "魔物技能决策",
           "status": "in-progress"
         },
         {
-          "title": "死亡与掉落",
+          "title": "魔物技能施放",
+          "status": "in-progress"
+        },
+        {
+          "title": "魔物死亡结算",
+          "status": "done"
+        },
+        {
+          "title": "魔物掉落",
           "status": "done"
         },
         {
@@ -610,7 +654,11 @@
           "status": "done"
         },
         {
-          "title": "反射与吸血",
+          "title": "伤害反射",
+          "status": "done"
+        },
+        {
+          "title": "生命吸取",
           "status": "done"
         },
         {
@@ -643,7 +691,11 @@
           "status": "in-progress"
         },
         {
-          "title": "城战与城堡归属",
+          "title": "城战系统",
+          "status": "planned"
+        },
+        {
+          "title": "城堡归属",
           "status": "planned"
         },
         {
@@ -651,7 +703,11 @@
           "status": "planned"
         },
         {
-          "title": "战场队伍与比赛",
+          "title": "战场队伍",
+          "status": "planned"
+        },
+        {
+          "title": "战场比赛",
           "status": "planned"
         },
         {
@@ -664,7 +720,11 @@
       "name": "地图服务器 · 技能框架",
       "items": [
         {
-          "title": "技能树与加点",
+          "title": "技能树",
+          "status": "done"
+        },
+        {
+          "title": "技能加点",
           "status": "done"
         },
         {
@@ -672,8 +732,8 @@
           "status": "done"
         },
         {
-          "title": "地面技能单元",
-          "status": "in-progress"
+          "title": "地面单元框架",
+          "status": "done"
         },
         {
           "title": "玩家技能冷却",
@@ -725,8 +785,8 @@
           "status": "planned"
         },
         {
-          "title": "佣兵技能 0/41",
-          "status": "planned"
+          "title": "佣兵技能 5/41",
+          "status": "in-progress"
         },
         {
           "title": "元素精灵技能 0/51",
@@ -1013,20 +1073,20 @@
       "name": "地图服务器 · 佣兵技能",
       "items": [
         {
-          "title": "剑士佣兵 0/6",
-          "status": "planned"
+          "title": "剑士佣兵 1/6",
+          "status": "in-progress"
         },
         {
-          "title": "弓箭手佣兵 0/9",
-          "status": "planned"
+          "title": "弓箭手佣兵 2/9",
+          "status": "in-progress"
         },
         {
-          "title": "枪兵佣兵 0/6",
-          "status": "planned"
+          "title": "枪兵佣兵 1/6",
+          "status": "in-progress"
         },
         {
-          "title": "通用技能 0/20",
-          "status": "planned"
+          "title": "通用技能 1/20",
+          "status": "in-progress"
         }
       ]
     },
@@ -1071,12 +1131,16 @@
           "status": "done"
         },
         {
-          "title": "状态属性修正",
+          "title": "状态修正框架",
           "status": "done"
         },
         {
-          "title": "抗性与免疫判定",
-          "status": "done"
+          "title": "状态抗性判定",
+          "status": "in-progress"
+        },
+        {
+          "title": "状态免疫判定",
+          "status": "in-progress"
         },
         {
           "title": "状态图标显示",
@@ -1091,7 +1155,7 @@
           "status": "done"
         },
         {
-          "title": "隐身与反伤状态",
+          "title": "隐身状态",
           "status": "done"
         },
         {
@@ -1132,7 +1196,11 @@
           "status": "done"
         },
         {
-          "title": "宠物改名与表情",
+          "title": "宠物改名",
+          "status": "done"
+        },
+        {
+          "title": "宠物表情",
           "status": "done"
         },
         {
@@ -1165,7 +1233,11 @@
           "status": "planned"
         },
         {
-          "title": "生命体进化与变异",
+          "title": "生命体进化",
+          "status": "planned"
+        },
+        {
+          "title": "生命体变异",
           "status": "planned"
         }
       ]
@@ -1175,15 +1247,15 @@
       "items": [
         {
           "title": "佣兵雇佣与解雇",
-          "status": "planned"
+          "status": "done"
         },
         {
           "title": "佣兵战斗 AI",
-          "status": "planned"
+          "status": "done"
         },
         {
           "title": "佣兵技能分配",
-          "status": "planned"
+          "status": "done"
         }
       ]
     },
@@ -1212,7 +1284,11 @@
           "status": "done"
         },
         {
-          "title": "摆摊浏览与购买",
+          "title": "摆摊浏览",
+          "status": "done"
+        },
+        {
+          "title": "摆摊购买",
           "status": "done"
         },
         {
@@ -1220,7 +1296,11 @@
           "status": "done"
         },
         {
-          "title": "收购浏览与出售",
+          "title": "收购摊浏览",
+          "status": "done"
+        },
+        {
+          "title": "出售给收购摊",
           "status": "done"
         },
         {
@@ -1228,7 +1308,11 @@
           "status": "planned"
         },
         {
-          "title": "离线挂店",
+          "title": "离线摆摊",
+          "status": "planned"
+        },
+        {
+          "title": "离线收购",
           "status": "planned"
         }
       ]
@@ -1254,7 +1338,15 @@
       "name": "地图服务器 · 制造",
       "items": [
         {
-          "title": "锻造、药水与料理",
+          "title": "武器锻造",
+          "status": "planned"
+        },
+        {
+          "title": "药水制作",
+          "status": "planned"
+        },
+        {
+          "title": "料理制作",
           "status": "planned"
         },
         {
@@ -1318,15 +1410,27 @@
       "name": "地图服务器 · 任务",
       "items": [
         {
-          "title": "任务接取与完成",
+          "title": "任务接取",
           "status": "done"
         },
         {
-          "title": "任务删除与切换",
+          "title": "任务完成",
           "status": "done"
         },
         {
-          "title": "任务进度与登录同步",
+          "title": "任务删除",
+          "status": "done"
+        },
+        {
+          "title": "任务状态切换",
+          "status": "done"
+        },
+        {
+          "title": "任务进度更新",
+          "status": "done"
+        },
+        {
+          "title": "任务登录同步",
           "status": "done"
         },
         {
@@ -1334,11 +1438,19 @@
           "status": "done"
         },
         {
-          "title": "任务脚本与管理",
+          "title": "任务脚本接口",
           "status": "done"
         },
         {
-          "title": "任务日志与标记",
+          "title": "任务管理工具",
+          "status": "done"
+        },
+        {
+          "title": "任务日志",
+          "status": "done"
+        },
+        {
+          "title": "任务标记",
           "status": "done"
         },
         {
@@ -1359,11 +1471,19 @@
       "name": "地图服务器 · 成就与称号",
       "items": [
         {
-          "title": "成就判定与奖励",
+          "title": "成就判定",
           "status": "planned"
         },
         {
-          "title": "成就进度与界面",
+          "title": "成就奖励",
+          "status": "planned"
+        },
+        {
+          "title": "成就进度",
+          "status": "planned"
+        },
+        {
+          "title": "成就界面",
           "status": "planned"
         },
         {
@@ -1376,11 +1496,19 @@
       "name": "地图服务器 · 邮件（传统 + RODEX）",
       "items": [
         {
-          "title": "发送与接收邮件",
+          "title": "邮件发送",
           "status": "done"
         },
         {
-          "title": "附件道具与 Zeny",
+          "title": "邮件接收",
+          "status": "done"
+        },
+        {
+          "title": "道具附件",
+          "status": "done"
+        },
+        {
+          "title": "Zeny 附件",
           "status": "done"
         },
         {
@@ -1388,7 +1516,11 @@
           "status": "done"
         },
         {
-          "title": "邮件过期与删除",
+          "title": "邮件过期",
+          "status": "done"
+        },
+        {
+          "title": "邮件删除",
           "status": "done"
         }
       ]
@@ -1397,7 +1529,11 @@
       "name": "地图服务器 · NPC 商店",
       "items": [
         {
-          "title": "普通商店（买卖）",
+          "title": "普通商店购买",
+          "status": "done"
+        },
+        {
+          "title": "普通商店出售",
           "status": "done"
         },
         {
@@ -1442,11 +1578,15 @@
           "status": "planned"
         },
         {
-          "title": "表情包解锁与绑定",
+          "title": "表情包解锁",
           "status": "planned"
         },
         {
-          "title": "限时与租期表情包",
+          "title": "表情包绑定",
+          "status": "planned"
+        },
+        {
+          "title": "表情包有效期",
           "status": "planned"
         }
       ]
@@ -1493,15 +1633,48 @@
           "status": "done"
         },
         {
-          "title": "拍卖行",
-          "status": "planned"
-        },
-        {
           "title": "乐透大转盘",
           "status": "planned"
         },
         {
-          "title": "VIP 系统",
+          "title": "VIP 资格生命周期",
+          "status": "planned"
+        },
+        {
+          "title": "VIP 权益规则",
+          "status": "planned"
+        }
+      ]
+    },
+    {
+      "name": "地图服务器 · 拍卖行",
+      "items": [
+        {
+          "title": "拍卖查询",
+          "status": "planned"
+        },
+        {
+          "title": "拍卖上架",
+          "status": "planned"
+        },
+        {
+          "title": "拍卖撤单",
+          "status": "planned"
+        },
+        {
+          "title": "拍卖竞价",
+          "status": "planned"
+        },
+        {
+          "title": "拍卖直购",
+          "status": "planned"
+        },
+        {
+          "title": "拍卖提前结案",
+          "status": "planned"
+        },
+        {
+          "title": "拍卖到期结算",
           "status": "planned"
         }
       ]
@@ -1520,12 +1693,17 @@
       ]
     },
     {
-      "name": "地图服务器 · 角色外观",
+      "name": "地图服务器 · 客户端设置",
       "items": [
         {
           "title": "快捷键保存",
           "status": "done"
-        },
+        }
+      ]
+    },
+    {
+      "name": "地图服务器 · 角色外观",
+      "items": [
         {
           "title": "造型师",
           "status": "planned"
@@ -1544,12 +1722,20 @@
           "status": "done"
         },
         {
-          "title": "猎鹰与战狼",
-          "status": "in-progress"
+          "title": "骑乘战狼",
+          "status": "done"
         },
         {
-          "title": "龙骑与魔导机甲",
+          "title": "龙骑",
           "status": "done"
+        },
+        {
+          "title": "魔导机甲",
+          "status": "done"
+        },
+        {
+          "title": "坐骑互斥规则",
+          "status": "in-progress"
         }
       ]
     },
@@ -1606,7 +1792,15 @@
           "status": "done"
         },
         {
-          "title": "游戏日志（拾取/交易）",
+          "title": "玩家流水框架",
+          "status": "done"
+        },
+        {
+          "title": "物品流水",
+          "status": "in-progress"
+        },
+        {
+          "title": "Zeny 流水",
           "status": "in-progress"
         },
         {
@@ -1651,7 +1845,15 @@
           "status": "done"
         },
         {
-          "title": "对话框 / 菜单 / 输入",
+          "title": "NPC 对话框",
+          "status": "done"
+        },
+        {
+          "title": "NPC 菜单",
+          "status": "done"
+        },
+        {
+          "title": "NPC 输入",
           "status": "done"
         },
         {
@@ -1692,11 +1894,11 @@
           "status": "done"
         },
         {
-          "title": "脚本指令集 367/605",
+          "title": "脚本指令集 378/605",
           "status": "in-progress"
         },
         {
-          "title": "角色生命周期事件（OnPCLogin）",
+          "title": "角色登录事件（OnPCLogin）",
           "status": "done"
         },
         {
@@ -1720,11 +1922,19 @@
           "status": "done"
         },
         {
-          "title": "账号变量持久化接入（`#` / `##`）",
+          "title": "本地账号变量（`#`）",
           "status": "done"
         },
         {
-          "title": "全局变量持久化接入（`$` / `$@`）",
+          "title": "全服账号变量（`##`）",
+          "status": "done"
+        },
+        {
+          "title": "永久全局变量（`$`）",
+          "status": "done"
+        },
+        {
+          "title": "临时全局变量（`$@`）",
           "status": "done"
         },
         {
@@ -1732,7 +1942,11 @@
           "status": "done"
         },
         {
-          "title": "增量编译/重载",
+          "title": "脚本增量热重载",
+          "status": "planned"
+        },
+        {
+          "title": "脚本自动发现与热重载",
           "status": "planned"
         }
       ]
