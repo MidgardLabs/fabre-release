@@ -1,5 +1,47 @@
 [
   {
+    "version": "0.48.0",
+    "date": "2026-07-28",
+    "changes": [
+      {
+        "type": "feature",
+        "description": "实现装备改造系统 (Item Reform)"
+      },
+      {
+        "type": "feature",
+        "description": "实现装备破损系统, 战斗中装备按配置概率破损并自动卸下"
+      },
+      {
+        "type": "feature",
+        "description": "实现铁匠的 `BS_REPAIRWEAPON` (武器修理) 技能"
+      },
+      {
+        "type": "fix",
+        "description": "修复装备与卡片提供的不可破坏效果未生效的问题"
+      },
+      {
+        "type": "fix",
+        "description": "修复公会敌对会错误同步给对方, 导致双方无法分别宣战的问题"
+      },
+      {
+        "type": "fix",
+        "description": "修复脚本中使用魔物 `AegisName` 外观的 NPC 无法生成的问题"
+      },
+      {
+        "type": "fix",
+        "description": "修复 `@recall *all` 将执行者计入失败, 且错误召唤更高等级管理员的问题"
+      },
+      {
+        "type": "fix",
+        "description": "修复加载使用 `USW_*` 行走停止常量的脚本时持续告警的问题"
+      },
+      {
+        "type": "improve",
+        "description": "优化 NPC 名称等超长字段的截断告警: 默认不再显示到终端, 文件日志仍按来源模块保留"
+      }
+    ]
+  },
+  {
     "version": "0.47.0",
     "date": "2026-07-25",
     "changes": [

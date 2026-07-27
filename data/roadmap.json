@@ -1,5 +1,5 @@
 {
-  "version": "0.47.0",
+  "version": "0.48.0",
   "groups": [
     {
       "name": "登录服务器",
@@ -302,11 +302,11 @@
         },
         {
           "title": "装备破损",
-          "status": "in-progress"
+          "status": "done"
         },
         {
           "title": "装备修理",
-          "status": "in-progress"
+          "status": "done"
         },
         {
           "title": "装备脚本执行",
@@ -339,7 +339,7 @@
         },
         {
           "title": "装备改造（Item Reform）",
-          "status": "planned"
+          "status": "done"
         }
       ]
     },
@@ -524,7 +524,7 @@
         },
         {
           "title": "公会敌对",
-          "status": "in-progress"
+          "status": "done"
         },
         {
           "title": "公会经验",
@@ -1894,7 +1894,7 @@
           "status": "done"
         },
         {
-          "title": "脚本指令集 378/605",
+          "title": "脚本指令集 379/605",
           "status": "in-progress"
         },
         {
