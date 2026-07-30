@@ -1,5 +1,123 @@
 [
   {
+    "version": "0.49.0",
+    "date": "2026-07-30",
+    "changes": [
+      {
+        "type": "feature",
+        "description": "实现人工生命体系统及相关炼金术师技能"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `@makehomun`, `@homlevel` 管理员指令: 创建 / 升级人工生命体"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `@homevolution`, `@hommutate` 管理员指令: 进化 / 变异人工生命体"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `@homfriendly`, `@homhungry` 管理员指令: 调整亲密度与饥饿度"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `@hominfo`, `@homstats` 管理员指令: 查看人工生命体战斗与成长数据"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `@homshuffle` 管理员指令: 重新随机人工生命体成长属性"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `@homtalk` 管理员指令: 让人工生命体发送附近可见消息"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `@useskill` 管理员指令: 让玩家或人工生命体对角色或地面施法"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `@resetcooltime` 管理员指令的人工生命体冷却清除能力"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `@reloadmobdb`, `@reloadskilldb` 管理员指令的人工生命体热重载能力"
+      },
+      {
+        "type": "feature",
+        "description": "实现 NPC 等待室系统: 创建 / 成员管理 / 事件触发 / 传送 / 消息与销毁"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `unitskillusepos` 脚本指令: 控制单位向指定坐标施放技能"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `attack_exp_to_master` 宠物配置项: 控制单人时攻击经验是否发给主人"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `attack_exp_rate` 宠物配置项: 调整攻击经验与 Zeny 收益倍率"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `item_stacking` 配置项: 控制手动丢弃物是否允许同格堆叠"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `min_chat_delay` 配置项: 设置普通聊天与 `@homtalk` 的最短间隔"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `hide_normal_packets` 配置项: 可将普通封包日志仅保留在文件中"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `enable_combat_movement_trace` 配置项: 按需记录战斗移动因果日志"
+      },
+      {
+        "type": "fix",
+        "description": "修复服务器连续运行约 25 天后物品归属者无法拾取掉落物的问题"
+      },
+      {
+        "type": "fix",
+        "description": "修复玩家手动丢弃的物品仍限制其他角色立即拾取的问题"
+      },
+      {
+        "type": "fix",
+        "description": "修复魔物技能施法时间 / 可取消设置与冷却时序不正确的问题"
+      },
+      {
+        "type": "fix",
+        "description": "修复永久状态绕过抗性与免疫判定的问题"
+      },
+      {
+        "type": "fix",
+        "description": "修复玩家移动 / 击退 / 切图时 NPC `OnTouch` 事件漏触发或未释放的问题"
+      },
+      {
+        "type": "fix",
+        "description": "修复宠物与召唤魔物参与击杀时经验 / Zeny / 掉落归属错误的问题"
+      },
+      {
+        "type": "fix",
+        "description": "修复宠物与佣兵未正确继承主人的队伍 / 公会 / 公会徽章信息的问题"
+      },
+      {
+        "type": "fix",
+        "description": "修复禁言玩家或位于 NPC 附近 / 禁聊区域时仍可创建聊天室的问题"
+      },
+      {
+        "type": "fix",
+        "description": "修复魔物被地面技能命中后未按技能条件触发应对技能的问题"
+      },
+      {
+        "type": "fix",
+        "description": "修复 `getmapxy` 脚本指令无法查询宠物位置的问题"
+      }
+    ]
+  },
+  {
     "version": "0.48.0",
     "date": "2026-07-28",
     "changes": [

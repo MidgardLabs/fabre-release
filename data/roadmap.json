@@ -1,5 +1,5 @@
 {
-  "version": "0.48.0",
+  "version": "0.49.0",
   "groups": [
     {
       "name": "登录服务器",
@@ -35,10 +35,6 @@
         {
           "title": "线路拥挤度显示",
           "status": "done"
-        },
-        {
-          "title": "动态 IP 封禁",
-          "status": "planned"
         }
       ]
     },
@@ -113,6 +109,14 @@
         {
           "title": "记忆传送点",
           "status": "done"
+        },
+        {
+          "title": "目的地导航",
+          "status": "done"
+        },
+        {
+          "title": "私人飞空艇",
+          "status": "planned"
         }
       ]
     },
@@ -183,6 +187,14 @@
         {
           "title": "物品堆叠合并",
           "status": "done"
+        },
+        {
+          "title": "物品收藏",
+          "status": "done"
+        },
+        {
+          "title": "背包扩容",
+          "status": "planned"
         }
       ]
     },
@@ -233,6 +245,14 @@
         {
           "title": "公会仓库存取",
           "status": "done"
+        },
+        {
+          "title": "公会仓库日志",
+          "status": "planned"
+        },
+        {
+          "title": "多仓库扩展",
+          "status": "planned"
         }
       ]
     },
@@ -265,7 +285,7 @@
       "name": "地图服务器 · 装备",
       "items": [
         {
-          "title": "装备穿戴（含限制判定）",
+          "title": "装备穿戴",
           "status": "done"
         },
         {
@@ -376,7 +396,7 @@
           "status": "done"
         },
         {
-          "title": "私聊（密语）",
+          "title": "私聊",
           "status": "done"
         },
         {
@@ -400,8 +420,8 @@
           "status": "done"
         },
         {
-          "title": "频道系统",
-          "status": "planned"
+          "title": "道具链接",
+          "status": "in-progress"
         }
       ]
     },
@@ -582,11 +602,11 @@
         },
         {
           "title": "魔物技能决策",
-          "status": "in-progress"
+          "status": "done"
         },
         {
           "title": "魔物技能施放",
-          "status": "in-progress"
+          "status": "done"
         },
         {
           "title": "魔物死亡结算",
@@ -753,7 +773,7 @@
           "status": "done"
         },
         {
-          "title": "二转职业技能 11/223",
+          "title": "二转职业技能 16/223",
           "status": "in-progress"
         },
         {
@@ -781,8 +801,8 @@
           "status": "in-progress"
         },
         {
-          "title": "生命体技能 0/58",
-          "status": "planned"
+          "title": "生命体技能 6/58",
+          "status": "in-progress"
         },
         {
           "title": "佣兵技能 5/41",
@@ -839,8 +859,8 @@
           "status": "in-progress"
         },
         {
-          "title": "铁匠 0/24",
-          "status": "planned"
+          "title": "铁匠 1/24",
+          "status": "in-progress"
         },
         {
           "title": "猎人 1/19",
@@ -867,8 +887,8 @@
           "status": "in-progress"
         },
         {
-          "title": "炼金术师 0/20",
-          "status": "planned"
+          "title": "炼金术师 4/20",
+          "status": "in-progress"
         },
         {
           "title": "吟游诗人 0/19",
@@ -1011,7 +1031,7 @@
       "name": "地图服务器 · 扩展职业技能",
       "items": [
         {
-          "title": "初学者系技能",
+          "title": "超初系技能",
           "status": "planned"
         },
         {
@@ -1032,16 +1052,16 @@
       "name": "地图服务器 · 生命体技能",
       "items": [
         {
-          "title": "丽芙 0/4",
-          "status": "planned"
+          "title": "丽芙 1/4",
+          "status": "in-progress"
         },
         {
-          "title": "艾咪斯可鲁 0/4",
-          "status": "planned"
+          "title": "艾咪斯可鲁 1/4",
+          "status": "in-progress"
         },
         {
-          "title": "飞里乐 0/4",
-          "status": "planned"
+          "title": "飞里乐 1/4",
+          "status": "in-progress"
         },
         {
           "title": "巴尼米乐斯 0/4",
@@ -1060,12 +1080,12 @@
           "status": "planned"
         },
         {
-          "title": "迪尔特 0/8",
-          "status": "planned"
+          "title": "迪尔特 1/8",
+          "status": "in-progress"
         },
         {
-          "title": "伊琳诺雅 0/10",
-          "status": "planned"
+          "title": "伊琳诺雅 2/10",
+          "status": "in-progress"
         }
       ]
     },
@@ -1136,11 +1156,11 @@
         },
         {
           "title": "状态抗性判定",
-          "status": "in-progress"
+          "status": "done"
         },
         {
           "title": "状态免疫判定",
-          "status": "in-progress"
+          "status": "done"
         },
         {
           "title": "状态图标显示",
@@ -1222,23 +1242,35 @@
       "items": [
         {
           "title": "生命体召唤与消散",
-          "status": "planned"
+          "status": "done"
+        },
+        {
+          "title": "生命体移动与攻击",
+          "status": "done"
+        },
+        {
+          "title": "生命体改名",
+          "status": "done"
         },
         {
           "title": "生命体喂食",
-          "status": "planned"
+          "status": "done"
+        },
+        {
+          "title": "生命体自动喂食",
+          "status": "done"
         },
         {
           "title": "生命体技能分配",
-          "status": "planned"
+          "status": "done"
         },
         {
           "title": "生命体进化",
-          "status": "planned"
+          "status": "done"
         },
         {
           "title": "生命体变异",
-          "status": "planned"
+          "status": "done"
         }
       ]
     },
@@ -1693,17 +1725,20 @@
       ]
     },
     {
-      "name": "地图服务器 · 客户端设置",
+      "name": "地图服务器 · 设置与外观",
       "items": [
         {
           "title": "快捷键保存",
           "status": "done"
-        }
-      ]
-    },
-    {
-      "name": "地图服务器 · 角色外观",
-      "items": [
+        },
+        {
+          "title": "召集屏蔽开关",
+          "status": "in-progress"
+        },
+        {
+          "title": "时装隐藏开关",
+          "status": "done"
+        },
         {
           "title": "造型师",
           "status": "planned"
@@ -1777,11 +1812,19 @@
         {
           "title": "变量存储体系",
           "status": "done"
+        },
+        {
+          "title": "客户端封包混淆",
+          "status": "planned"
+        },
+        {
+          "title": "分布式部署",
+          "status": "planned"
         }
       ]
     },
     {
-      "name": "运营工具与安全",
+      "name": "运营与安全",
       "items": [
         {
           "title": "终端彩色日志",
@@ -1808,7 +1851,7 @@
           "status": "done"
         },
         {
-          "title": "管理员指令集 164/288",
+          "title": "管理员指令集 175/288",
           "status": "in-progress"
         },
         {
@@ -1894,7 +1937,7 @@
           "status": "done"
         },
         {
-          "title": "脚本指令集 379/605",
+          "title": "脚本指令集 399/605",
           "status": "in-progress"
         },
         {
@@ -1977,6 +2020,44 @@
         {
           "title": "商人商店配置读写",
           "status": "done"
+        }
+      ]
+    },
+    {
+      "name": "rAthena · 服务端扩展",
+      "items": [
+        {
+          "title": "动态 IP 封禁",
+          "status": "planned"
+        },
+        {
+          "title": "DNS 黑名单",
+          "status": "planned"
+        },
+        {
+          "title": "登录公告",
+          "status": "planned"
+        },
+        {
+          "title": "登录审计日志",
+          "status": "in-progress"
+        },
+        {
+          "title": "频道系统",
+          "status": "planned"
+        }
+      ]
+    },
+    {
+      "name": "扩展机制",
+      "items": [
+        {
+          "title": "单点登录",
+          "status": "planned"
+        },
+        {
+          "title": "密码安全迁移",
+          "status": "planned"
         }
       ]
     }
