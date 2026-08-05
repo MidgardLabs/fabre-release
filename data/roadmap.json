@@ -1,5 +1,5 @@
 {
-  "version": "0.51.0",
+  "version": "0.52.0",
   "groups": [
     {
       "name": "登录服务器",
@@ -805,7 +805,7 @@
           "status": "in-progress"
         },
         {
-          "title": "佣兵技能 5/41",
+          "title": "佣兵技能 6/41",
           "status": "in-progress"
         },
         {
@@ -1105,7 +1105,7 @@
           "status": "in-progress"
         },
         {
-          "title": "通用技能 1/20",
+          "title": "通用技能 2/20",
           "status": "in-progress"
         }
       ]
@@ -1628,19 +1628,19 @@
       "items": [
         {
           "title": "签到周期与进度",
-          "status": "planned"
+          "status": "done"
         },
         {
           "title": "签到界面",
-          "status": "planned"
+          "status": "done"
         },
         {
           "title": "签到奖励投递",
-          "status": "planned"
+          "status": "done"
         },
         {
           "title": "登录自动弹窗",
-          "status": "planned"
+          "status": "done"
         }
       ]
     },

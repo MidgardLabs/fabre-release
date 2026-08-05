@@ -1,5 +1,55 @@
 [
   {
+    "version": "0.52.0",
+    "date": "2026-08-05",
+    "changes": [
+      {
+        "type": "feature",
+        "description": "实现签到系统: 适用于 `20180307` 及更新客户端"
+      },
+      {
+        "type": "feature",
+        "description": "实现签到热重载管理员指令: `@reloadattendancedb`, `@reload attendancedb`"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `attendance` 配置项: 控制签到系统启用"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `attendance_timezone` 配置项: 设置签到自然日时区"
+      },
+      {
+        "type": "feature",
+        "description": "实现佣兵的怪物情报技能"
+      },
+      {
+        "type": "fix",
+        "description": "修复魔物数据库 `DamageTaken` 与 `UMOB_DAMAGETAKEN` 不会调整承受伤害的问题"
+      },
+      {
+        "type": "fix",
+        "description": "修复霸邪之阵 / 暗之障壁 / 光之障壁 / 白色监狱抵挡攻击时伤害或受击反馈可能错误的问题"
+      },
+      {
+        "type": "fix",
+        "description": "修复脚本变量名大小写不一致时读取或保存错误值的问题"
+      },
+      {
+        "type": "fix",
+        "description": "修复服务器变量保存失败后后续更新可能不再保存的问题"
+      },
+      {
+        "type": "fix",
+        "description": "修复邮件附件携带负值随机选项时可能无法正确保存的问题"
+      },
+      {
+        "type": "fix",
+        "description": "修复 `setunitdata` 修改非玩家单位朝向后客户端未同步的问题"
+      }
+    ]
+  },
+  {
     "version": "0.51.0",
     "date": "2026-08-03",
     "changes": [
