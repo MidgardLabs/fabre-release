@@ -1,5 +1,55 @@
 [
   {
+    "version": "0.53.0",
+    "date": "2026-08-10",
+    "changes": [
+      {
+        "type": "feature",
+        "description": "实现服务器公告系统: 默认向登录玩家投递 `conf/motd.txt`"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `motd_enabled`, `motd_path`, `motd_type` 配置项"
+      },
+      {
+        "type": "feature",
+        "description": "实现 NPC 对话操作限制 (不兼容变更): Renewal 既有脚本请按需调用 `enable_items`"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `item_enabled_npc` 配置项: 调整 NPC 对话的默认操作权限"
+      },
+      {
+        "type": "feature",
+        "description": "实现 23 条管理员指令: 涵盖公告 / 角色 / 队伍 / 公会 / 物品与地图管理"
+      },
+      {
+        "type": "feature",
+        "description": "实现 22 条脚本指令: 涵盖物品统计 / 角色状态 / 地图 / 公会与视觉特效"
+      },
+      {
+        "type": "feature",
+        "description": "实现 13 个地图标记: 涵盖技能 / 交互 / 区域 / GvG 与等级惩罚控制"
+      },
+      {
+        "type": "fix",
+        "description": "修复使用 MySQL 时公会资料可能无法正确加载的问题"
+      },
+      {
+        "type": "fix",
+        "description": "修复连续打开公会仓库时可能重复发送大量资料的问题"
+      },
+      {
+        "type": "fix",
+        "description": "修复队长主动离队时队伍被直接解散的问题"
+      },
+      {
+        "type": "improve",
+        "description": "优化服务器内部通讯: 统一数据交互与失败处理, 提升状态一致性"
+      }
+    ]
+  },
+  {
     "version": "0.52.0",
     "date": "2026-08-05",
     "changes": [

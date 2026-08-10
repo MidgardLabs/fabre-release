@@ -1,5 +1,5 @@
 {
-  "version": "0.52.0",
+  "version": "0.53.0",
   "groups": [
     {
       "name": "登录服务器",
@@ -71,10 +71,6 @@
         },
         {
           "title": "地图不可用备选主城",
-          "status": "done"
-        },
-        {
-          "title": "角色操作日志",
           "status": "done"
         }
       ]
@@ -245,10 +241,6 @@
         {
           "title": "公会仓库存取",
           "status": "done"
-        },
-        {
-          "title": "公会仓库日志",
-          "status": "planned"
         },
         {
           "title": "多仓库扩展",
@@ -1478,7 +1470,7 @@
           "status": "done"
         },
         {
-          "title": "任务日志",
+          "title": "客户端任务面板",
           "status": "done"
         },
         {
@@ -1767,10 +1759,6 @@
         {
           "title": "魔导机甲",
           "status": "done"
-        },
-        {
-          "title": "坐骑互斥规则",
-          "status": "in-progress"
         }
       ]
     },
@@ -1806,8 +1794,12 @@
           "status": "done"
         },
         {
-          "title": "地图标记系统",
+          "title": "地图标记框架",
           "status": "done"
+        },
+        {
+          "title": "地图标记集 73/79",
+          "status": "in-progress"
         },
         {
           "title": "变量存储体系",
@@ -1824,34 +1816,102 @@
       ]
     },
     {
-      "name": "运营与安全",
+      "name": "日志系统 · 运行诊断",
       "items": [
         {
-          "title": "终端彩色日志",
+          "title": "终端诊断日志",
           "status": "done"
         },
         {
-          "title": "文件日志轮转",
+          "title": "轮转文件诊断日志",
           "status": "done"
-        },
+        }
+      ]
+    },
+    {
+      "name": "日志系统 · 账户与管理审计",
+      "items": [
         {
-          "title": "玩家流水框架",
-          "status": "done"
-        },
-        {
-          "title": "物品流水",
+          "title": "登录审计日志",
           "status": "in-progress"
         },
         {
-          "title": "Zeny 流水",
+          "title": "角色操作审计日志",
+          "status": "done"
+        },
+        {
+          "title": "管理员指令审计日志",
+          "status": "done"
+        },
+        {
+          "title": "公会关键操作日志",
+          "status": "planned"
+        }
+      ]
+    },
+    {
+      "name": "日志系统 · 资源变更审计",
+      "items": [
+        {
+          "title": "玩家物品变更日志",
           "status": "in-progress"
         },
+        {
+          "title": "Zeny 变更日志",
+          "status": "in-progress"
+        },
+        {
+          "title": "现金点数变更日志",
+          "status": "planned"
+        },
+        {
+          "title": "卡普拉积分变更日志",
+          "status": "planned"
+        },
+        {
+          "title": "魔物物品变更日志",
+          "status": "planned"
+        },
+        {
+          "title": "公会仓库存取日志",
+          "status": "planned"
+        }
+      ]
+    },
+    {
+      "name": "日志系统 · 游戏行为审计",
+      "items": [
+        {
+          "title": "NPC 脚本日志",
+          "status": "planned"
+        },
+        {
+          "title": "聊天消息日志",
+          "status": "planned"
+        },
+        {
+          "title": "宠物与生命体喂养日志",
+          "status": "planned"
+        },
+        {
+          "title": "枯树枝使用日志",
+          "status": "planned"
+        },
+        {
+          "title": "MVP 奖励日志",
+          "status": "planned"
+        }
+      ]
+    },
+    {
+      "name": "运营与安全",
+      "items": [
         {
           "title": "管理员指令框架",
           "status": "done"
         },
         {
-          "title": "管理员指令集 178/288",
+          "title": "管理员指令集 202/288",
           "status": "in-progress"
         },
         {
@@ -1937,7 +1997,7 @@
           "status": "done"
         },
         {
-          "title": "脚本指令集 417/605",
+          "title": "脚本指令集 435/605",
           "status": "in-progress"
         },
         {
@@ -2036,11 +2096,7 @@
         },
         {
           "title": "登录公告",
-          "status": "planned"
-        },
-        {
-          "title": "登录审计日志",
-          "status": "in-progress"
+          "status": "done"
         },
         {
           "title": "频道系统",
