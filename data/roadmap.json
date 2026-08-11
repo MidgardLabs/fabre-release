@@ -1,5 +1,5 @@
 {
-  "version": "0.53.0",
+  "version": "0.54.0",
   "groups": [
     {
       "name": "登录服务器",
@@ -1997,7 +1997,7 @@
           "status": "done"
         },
         {
-          "title": "脚本指令集 435/605",
+          "title": "脚本指令集 454/605",
           "status": "in-progress"
         },
         {

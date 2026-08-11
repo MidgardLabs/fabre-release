@@ -1,5 +1,29 @@
 # 更新日志
 
+## v0.54.0 (2026-08-11)
+
+### 新增
+
+- 实现 `checkvending` 脚本指令: 查询在线摆摊 / 收购商店状态, 离线挂店暂不支持
+- 实现 `countbound` 脚本指令: 统计角色背包中的绑定道具
+- 实现 `permission_check` 脚本指令: 查询角色会话权限
+- 实现 `permission_add` 脚本指令: 授予角色会话权限
+- 实现 `permission_remove` 脚本指令: 撤销角色会话权限
+- 实现 `getscrate` 脚本指令: 查询目标对象的状态抗性
+- 实现 `getmobdrops` 脚本指令: 读取魔物普通掉落数据
+- 实现 `getguildmember` 脚本指令: 读取公会成员信息
+- 实现 `warpchar` 脚本指令: 传送指定角色, 随机落点暂不能完全避开传送门
+- 实现 `getareadropitem` 脚本指令: 统计地图区域内的地面道具
+- 实现 `escape_sql` 脚本指令: 转义 MySQL 字符串
+- 实现 `pushpc` 脚本指令: 击退附加玩家, 移动中断 / 视野 / 地面技能同步仍有限制
+- 实现 `cmdothernpc` 脚本指令: 触发指定 NPC 的自定义命令事件
+- 实现 `npcwalkto` 脚本指令: 让 NPC 行走到指定坐标
+- 实现 `npcskilleffect` 脚本指令: 以 NPC 播放技能特效
+- 实现 `getequiprandomoption` 脚本指令: 读取装备随机选项
+- 实现 `setrandomoption` 脚本指令: 修改装备随机选项
+- 实现 `getinventorylist` 脚本指令: 读取角色完整背包数据
+- 实现 `npcshopdelitem` 脚本指令: 动态移除 NPC 商店商品
+
 ## v0.53.0 (2026-08-10)
 
 ### 新增
