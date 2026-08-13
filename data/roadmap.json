@@ -1,5 +1,5 @@
 {
-  "version": "0.54.0",
+  "version": "0.55.0",
   "groups": [
     {
       "name": "登录服务器",
@@ -797,8 +797,8 @@
           "status": "in-progress"
         },
         {
-          "title": "佣兵技能 6/41",
-          "status": "in-progress"
+          "title": "佣兵技能 41/41",
+          "status": "done"
         },
         {
           "title": "元素精灵技能 7/51",
@@ -1085,20 +1085,20 @@
       "name": "地图服务器 · 佣兵技能",
       "items": [
         {
-          "title": "剑士佣兵 1/6",
-          "status": "in-progress"
+          "title": "剑士佣兵 6/6",
+          "status": "done"
         },
         {
-          "title": "弓箭手佣兵 2/9",
-          "status": "in-progress"
+          "title": "弓箭手佣兵 9/9",
+          "status": "done"
         },
         {
-          "title": "枪兵佣兵 1/6",
-          "status": "in-progress"
+          "title": "枪兵佣兵 6/6",
+          "status": "done"
         },
         {
-          "title": "通用技能 2/20",
-          "status": "in-progress"
+          "title": "通用技能 20/20",
+          "status": "done"
         }
       ]
     },
@@ -1346,7 +1346,7 @@
       "items": [
         {
           "title": "道具附魔（Item Enchant）",
-          "status": "planned"
+          "status": "done"
         },
         {
           "title": "精灵合成箱（Laphine Synthesis）",
@@ -1496,23 +1496,23 @@
       "items": [
         {
           "title": "成就判定",
-          "status": "planned"
+          "status": "done"
         },
         {
           "title": "成就奖励",
-          "status": "planned"
+          "status": "done"
         },
         {
           "title": "成就进度",
-          "status": "planned"
+          "status": "done"
         },
         {
           "title": "成就界面",
-          "status": "planned"
+          "status": "done"
         },
         {
           "title": "称号系统",
-          "status": "planned"
+          "status": "done"
         }
       ]
     },
@@ -1807,7 +1807,7 @@
         },
         {
           "title": "客户端封包混淆",
-          "status": "planned"
+          "status": "done"
         },
         {
           "title": "分布式部署",
@@ -1854,11 +1854,11 @@
       "items": [
         {
           "title": "玩家物品变更日志",
-          "status": "in-progress"
+          "status": "done"
         },
         {
           "title": "Zeny 变更日志",
-          "status": "in-progress"
+          "status": "done"
         },
         {
           "title": "现金点数变更日志",
@@ -1870,7 +1870,7 @@
         },
         {
           "title": "魔物物品变更日志",
-          "status": "planned"
+          "status": "done"
         },
         {
           "title": "公会仓库存取日志",
@@ -1911,7 +1911,7 @@
           "status": "done"
         },
         {
-          "title": "管理员指令集 202/288",
+          "title": "管理员指令集 203/288",
           "status": "in-progress"
         },
         {
@@ -1997,7 +1997,7 @@
           "status": "done"
         },
         {
-          "title": "脚本指令集 454/605",
+          "title": "脚本指令集 474/605",
           "status": "in-progress"
         },
         {
