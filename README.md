@@ -14,16 +14,16 @@
     <img alt="Discord" src="https://img.shields.io/discord/1482430722739273799?style=flat-square&label=Discord&logo=discord&logoColor=white&color=5865F2">
   </a>
   <!-- Latest release -->
-  <a href="https://github.com/MidgardLabs/fabre-release/releases/latest">
-    <img alt="Latest release" src="https://img.shields.io/github/v/release/MidgardLabs/fabre-release?style=flat-square&label=Release&color=0ea5e9">
+  <a href="https://github.com/midgardlabs/fabre-release/releases/latest">
+    <img alt="Latest release" src="https://img.shields.io/github/v/release/midgardlabs/fabre-release?style=flat-square&label=Release&color=0ea5e9">
   </a>
   <!-- Release date -->
-  <a href="https://github.com/MidgardLabs/fabre-release/releases">
-    <img alt="Release date" src="https://img.shields.io/github/release-date/MidgardLabs/fabre-release?style=flat-square&label=Updated">
+  <a href="https://github.com/midgardlabs/fabre-release/releases">
+    <img alt="Release date" src="https://img.shields.io/github/release-date/midgardlabs/fabre-release?style=flat-square&label=Updated">
   </a>
   <!-- Downloads (all releases) -->
-  <a href="https://github.com/MidgardLabs/fabre-release/releases">
-    <img alt="Downloads" src="https://img.shields.io/github/downloads/MidgardLabs/fabre-release/total?style=flat-square&label=Downloads&color=22c55e">
+  <a href="https://github.com/midgardlabs/fabre-release/releases">
+    <img alt="Downloads" src="https://img.shields.io/github/downloads/midgardlabs/fabre-release/total?style=flat-square&label=Downloads&color=22c55e">
   </a>
 
 </div>
@@ -36,11 +36,11 @@
     <span> · </span>
     <a href="https://fabre.app/changelog" target="_blank">更新日志</a>
     <span> · </span>
-    <a href="https://github.com/MidgardLabs/fabre-release/releases">下载</a>
+    <a href="https://github.com/midgardlabs/fabre-release/releases">下载</a>
   </h3>
 </div>
 
-> Fabre 仍在持续开发。当前版本适合搭建测试服务器和体验已实现功能；部分职业技能、城战与战场功能仍在开发中。正式运营前，请先查看 [路线图](https://fabre.app/roadmap) 和 [当前版本说明](https://github.com/MidgardLabs/fabre-release/releases/latest)。
+> Fabre 仍在持续开发。当前版本适合搭建测试服务器和体验已实现功能；部分职业技能、城战与战场功能仍在开发中。正式运营前，请先查看 [路线图](https://fabre.app/roadmap) 和 [当前版本说明](https://github.com/midgardlabs/fabre-release/releases/latest)。
 
 ---
 
@@ -61,13 +61,13 @@
 | Windows | x64 |
 | macOS | ARM64 (Apple Silicon) |
 
-其他平台的可用情况以 [最新 Release](https://github.com/MidgardLabs/fabre-release/releases/latest) 为准。
+其他平台的可用情况以 [最新 Release](https://github.com/midgardlabs/fabre-release/releases/latest) 为准。
 
 ---
 
 ## 快速开始
 
-1. 从 [官网](https://fabre.app) 或 [GitHub Releases](https://github.com/MidgardLabs/fabre-release/releases/latest) 下载对应平台的发行包
+1. 从 [官网](https://fabre.app) 或 [GitHub Releases](https://github.com/midgardlabs/fabre-release/releases/latest) 下载对应平台的发行包
 2. 解压到任意目录
 3. 运行 `fabre`；Windows 用户运行 `fabre.exe`
 
@@ -83,4 +83,4 @@ Fabre 服务器程序为闭源软件：通过本仓库 Release 与官网提供�
 
 ## 反馈
 
-使用问题请通过 [GitHub Issues](https://github.com/MidgardLabs/fabre-release/issues) 反馈，并附上 **版本号**、操作系统、客户端日期与可复现步骤。实时交流可加入 [Discord](https://discord.com/invite/Tygv5t7u23)。
+使用问题请通过 [GitHub Issues](https://github.com/midgardlabs/fabre-release/issues) 反馈，并附上 **版本号**、操作系统、客户端日期与可复现步骤。实时交流可加入 [Discord](https://discord.com/invite/Tygv5t7u23)。
