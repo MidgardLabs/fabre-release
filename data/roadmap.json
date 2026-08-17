@@ -1,5 +1,5 @@
 {
-  "version": "0.55.0",
+  "version": "0.56.0",
   "groups": [
     {
       "name": "登录服务器",
@@ -553,23 +553,23 @@
       "items": [
         {
           "title": "氏族成员关系",
-          "status": "planned"
+          "status": "done"
         },
         {
           "title": "氏族频道",
-          "status": "planned"
+          "status": "done"
         },
         {
           "title": "氏族固有效果",
-          "status": "planned"
+          "status": "done"
         },
         {
           "title": "结婚系统",
-          "status": "planned"
+          "status": "done"
         },
         {
           "title": "领养系统",
-          "status": "planned"
+          "status": "done"
         }
       ]
     },
@@ -724,7 +724,7 @@
         },
         {
           "title": "决斗系统",
-          "status": "planned"
+          "status": "done"
         }
       ]
     },
@@ -765,27 +765,27 @@
           "status": "done"
         },
         {
-          "title": "二转职业技能 16/223",
+          "title": "二转职业技能 46/223",
           "status": "in-progress"
         },
         {
-          "title": "三转职业技能 8/266",
+          "title": "三转职业技能 10/266",
           "status": "in-progress"
         },
         {
-          "title": "四转职业技能 6/192",
+          "title": "四转职业技能 8/192",
           "status": "in-progress"
         },
         {
-          "title": "多兰族职业技能 0/54",
-          "status": "planned"
+          "title": "多兰族职业技能 1/54",
+          "status": "in-progress"
         },
         {
           "title": "扩展职业技能",
           "status": "planned"
         },
         {
-          "title": "NPC 技能 4/173",
+          "title": "NPC 技能 5/173",
           "status": "in-progress"
         },
         {
@@ -839,16 +839,16 @@
       "name": "地图服务器 · 二转职业技能",
       "items": [
         {
-          "title": "骑士 0/12",
-          "status": "planned"
+          "title": "骑士 12/12",
+          "status": "done"
         },
         {
           "title": "祭司 2/19",
           "status": "in-progress"
         },
         {
-          "title": "巫师 1/14",
-          "status": "in-progress"
+          "title": "巫师 14/14",
+          "status": "done"
         },
         {
           "title": "铁匠 1/24",
@@ -863,7 +863,7 @@
           "status": "planned"
         },
         {
-          "title": "十字军 4/19",
+          "title": "十字军 7/19",
           "status": "in-progress"
         },
         {
@@ -871,7 +871,7 @@
           "status": "planned"
         },
         {
-          "title": "贤者 1/25",
+          "title": "贤者 4/25",
           "status": "in-progress"
         },
         {
@@ -879,7 +879,7 @@
           "status": "in-progress"
         },
         {
-          "title": "炼金术师 4/20",
+          "title": "炼金术师 8/20",
           "status": "in-progress"
         },
         {
@@ -924,7 +924,7 @@
           "status": "planned"
         },
         {
-          "title": "妖术师 8/28",
+          "title": "妖术师 9/28",
           "status": "in-progress"
         },
         {
@@ -944,8 +944,8 @@
           "status": "planned"
         },
         {
-          "title": "基因学者 0/19",
-          "status": "planned"
+          "title": "基因学者 1/19",
+          "status": "in-progress"
         }
       ]
     },
@@ -957,8 +957,8 @@
           "status": "planned"
         },
         {
-          "title": "机甲神匠 0/17",
-          "status": "planned"
+          "title": "机甲神匠 1/17",
+          "status": "in-progress"
         },
         {
           "title": "十字影武 0/11",
@@ -981,8 +981,8 @@
           "status": "planned"
         },
         {
-          "title": "生命缔造者 0/17",
-          "status": "planned"
+          "title": "生命缔造者 1/17",
+          "status": "in-progress"
         },
         {
           "title": "深渊追迹者 0/16",
@@ -1010,8 +1010,8 @@
       "name": "地图服务器 · 多兰族职业技能",
       "items": [
         {
-          "title": "召唤师 0/36",
-          "status": "planned"
+          "title": "召唤师 1/36",
+          "status": "in-progress"
         },
         {
           "title": "魂灵师 0/18",
@@ -1363,23 +1363,23 @@
       "items": [
         {
           "title": "武器锻造",
-          "status": "planned"
+          "status": "done"
         },
         {
           "title": "药水制作",
-          "status": "planned"
+          "status": "done"
         },
         {
           "title": "料理制作",
-          "status": "planned"
+          "status": "done"
         },
         {
           "title": "符文石制造",
-          "status": "planned"
+          "status": "done"
         },
         {
           "title": "四转制造界面",
-          "status": "planned"
+          "status": "done"
         }
       ]
     },
@@ -1599,19 +1599,19 @@
         },
         {
           "title": "表情包商城",
-          "status": "planned"
+          "status": "done"
         },
         {
           "title": "表情包解锁",
-          "status": "planned"
+          "status": "done"
         },
         {
           "title": "表情包绑定",
-          "status": "planned"
+          "status": "done"
         },
         {
           "title": "表情包有效期",
-          "status": "planned"
+          "status": "done"
         }
       ]
     },
@@ -1658,7 +1658,7 @@
         },
         {
           "title": "乐透大转盘",
-          "status": "planned"
+          "status": "done"
         },
         {
           "title": "VIP 资格生命周期",
@@ -1708,11 +1708,11 @@
       "items": [
         {
           "title": "职业名声榜",
-          "status": "planned"
+          "status": "done"
         },
         {
           "title": "声望系统",
-          "status": "planned"
+          "status": "done"
         }
       ]
     },
@@ -1733,7 +1733,7 @@
         },
         {
           "title": "造型师",
-          "status": "planned"
+          "status": "done"
         }
       ]
     },
@@ -1833,7 +1833,7 @@
       "items": [
         {
           "title": "登录审计日志",
-          "status": "in-progress"
+          "status": "done"
         },
         {
           "title": "角色操作审计日志",
@@ -1862,11 +1862,11 @@
         },
         {
           "title": "现金点数变更日志",
-          "status": "planned"
+          "status": "done"
         },
         {
           "title": "卡普拉积分变更日志",
-          "status": "planned"
+          "status": "done"
         },
         {
           "title": "魔物物品变更日志",
@@ -1874,7 +1874,7 @@
         },
         {
           "title": "公会仓库存取日志",
-          "status": "planned"
+          "status": "done"
         }
       ]
     },
@@ -1883,7 +1883,7 @@
       "items": [
         {
           "title": "NPC 脚本日志",
-          "status": "planned"
+          "status": "done"
         },
         {
           "title": "聊天消息日志",
@@ -1895,11 +1895,11 @@
         },
         {
           "title": "枯树枝使用日志",
-          "status": "planned"
+          "status": "done"
         },
         {
           "title": "MVP 奖励日志",
-          "status": "planned"
+          "status": "done"
         }
       ]
     },
@@ -1911,7 +1911,7 @@
           "status": "done"
         },
         {
-          "title": "管理员指令集 203/288",
+          "title": "管理员指令集 209/288",
           "status": "in-progress"
         },
         {
@@ -1997,7 +1997,7 @@
           "status": "done"
         },
         {
-          "title": "脚本指令集 474/605",
+          "title": "脚本指令集 507/605",
           "status": "in-progress"
         },
         {
