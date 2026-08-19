@@ -1,5 +1,5 @@
 {
-  "version": "0.56.0",
+  "version": "0.57.0",
   "groups": [
     {
       "name": "登录服务器",
@@ -1330,14 +1330,6 @@
         {
           "title": "搜索商店",
           "status": "planned"
-        },
-        {
-          "title": "离线摆摊",
-          "status": "planned"
-        },
-        {
-          "title": "离线收购",
-          "status": "planned"
         }
       ]
     },
@@ -2100,6 +2092,14 @@
         },
         {
           "title": "频道系统",
+          "status": "planned"
+        },
+        {
+          "title": "离线摆摊",
+          "status": "planned"
+        },
+        {
+          "title": "离线收购",
           "status": "planned"
         }
       ]
