@@ -1,5 +1,5 @@
 {
-  "version": "0.57.0",
+  "version": "0.58.0",
   "groups": [
     {
       "name": "登录服务器",
@@ -765,7 +765,7 @@
           "status": "done"
         },
         {
-          "title": "二转职业技能 46/223",
+          "title": "二转职业技能 63/223",
           "status": "in-progress"
         },
         {
@@ -789,8 +789,8 @@
           "status": "in-progress"
         },
         {
-          "title": "公会技能 5/20",
-          "status": "in-progress"
+          "title": "公会技能 20/20",
+          "status": "done"
         },
         {
           "title": "生命体技能 6/58",
@@ -843,8 +843,8 @@
           "status": "done"
         },
         {
-          "title": "祭司 2/19",
-          "status": "in-progress"
+          "title": "祭司 19/19",
+          "status": "done"
         },
         {
           "title": "巫师 14/14",
@@ -1837,7 +1837,7 @@
         },
         {
           "title": "公会关键操作日志",
-          "status": "planned"
+          "status": "done"
         }
       ]
     },
@@ -1879,11 +1879,11 @@
         },
         {
           "title": "聊天消息日志",
-          "status": "planned"
+          "status": "done"
         },
         {
           "title": "宠物与生命体喂养日志",
-          "status": "planned"
+          "status": "done"
         },
         {
           "title": "枯树枝使用日志",
@@ -1903,7 +1903,7 @@
           "status": "done"
         },
         {
-          "title": "管理员指令集 209/288",
+          "title": "管理员指令集 216/288",
           "status": "in-progress"
         },
         {
@@ -1989,7 +1989,7 @@
           "status": "done"
         },
         {
-          "title": "脚本指令集 507/605",
+          "title": "脚本指令集 513/605",
           "status": "in-progress"
         },
         {

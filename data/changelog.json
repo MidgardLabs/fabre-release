@@ -1,5 +1,115 @@
 [
   {
+    "version": "0.58.0",
+    "date": "2026-08-23",
+    "changes": [
+      {
+        "type": "feature",
+        "description": "实现 15 项祭司技能: 涵盖支援 / 恢复 / 退魔与范围攻击"
+      },
+      {
+        "type": "feature",
+        "description": "实现复活术与赎罪: 复活 / 可配置经验奖励与复兴前经验消耗"
+      },
+      {
+        "type": "feature",
+        "description": "实现公会城战系统: 城堡占领 / 守护者 / Emperium / 三代 WoE 与核心公会技能"
+      },
+      {
+        "type": "feature",
+        "description": "实现 6 项公会城战管理员指令: 开启或结束初代 / 二代 / 重生纪元攻城战"
+      },
+      {
+        "type": "feature",
+        "description": "实现 6 项城堡脚本指令: 管理城堡资料 / 守护者 / 会徽与易主清场"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `@guildspy` 管理员指令: 按名称或编号监听公会聊天"
+      },
+      {
+        "type": "feature",
+        "description": "实现公会关键操作审计: 记录创建 / 解散与城堡占领 / 换主 / 放弃"
+      },
+      {
+        "type": "feature",
+        "description": "实现宠物与生命体喂养日志: 记录主人 / 饲料 / 亲密度变化与地图位置"
+      },
+      {
+        "type": "feature",
+        "description": "实现 4 项配置选项: 覆盖公会监听 / 会徽透明度 / 仓库排序与状态魔法免疫"
+      },
+      {
+        "type": "fix",
+        "description": "修复多地图服务器同时使用公会仓库时可能覆盖物品变更的问题"
+      },
+      {
+        "type": "fix",
+        "description": "修复公会解散请求失败后地图服务器仍移除公会资料的问题"
+      },
+      {
+        "type": "fix",
+        "description": "修复公会绑定物品可违规交易, 公会解散后仍保留在会长身上的问题"
+      },
+      {
+        "type": "fix",
+        "description": "修复多地图服务器部署时公会聊天无法跨服送达的问题"
+      },
+      {
+        "type": "fix",
+        "description": "修复新版客户端公会仓库容量未随技能等级变化的问题"
+      },
+      {
+        "type": "fix",
+        "description": "修复普通成员首次加载公会资料时收到会长职位权限的问题"
+      },
+      {
+        "type": "fix",
+        "description": "修复部分 2019 客户端无法正常请求公会徽章的问题"
+      },
+      {
+        "type": "fix",
+        "description": "修复旧版本客户端将高 ID 物品和卡片错误显示为其他物品的问题"
+      },
+      {
+        "type": "fix",
+        "description": "修复装备切换预设在空预设 / 多槽替换 / 普通穿戴后状态异常的问题"
+      },
+      {
+        "type": "fix",
+        "description": "修复玩家属性 / 施法倍率 / 装备加成未正确缩短技能读条的问题"
+      },
+      {
+        "type": "fix",
+        "description": "修复玩家离开决斗后仍残留泥沼地效果的问题"
+      },
+      {
+        "type": "fix",
+        "description": "修复玩家以攻击动作点击 NPC 时无法触发对话的问题"
+      },
+      {
+        "type": "fix",
+        "description": "修复冒险者中介入队申请弹窗错误显示队伍名的问题"
+      },
+      {
+        "type": "fix",
+        "description": "修复并行加载数据库时进度条与普通日志相互混叠的问题"
+      },
+      {
+        "type": "improve",
+        "description": "优化 macOS 安装体验: 发布包完成开发者签名与 Apple 公证"
+      },
+      {
+        "type": "improve",
+        "description": "优化 Homebrew 启动日志: 精简路径并区分主配置与本地配置状态"
+      },
+      {
+        "type": "improve",
+        "description": "优化端口绑定失败提示: 使用本地化服务器名称"
+      }
+    ]
+  },
+  {
     "version": "0.57.0",
     "date": "2026-08-19",
     "changes": [
