@@ -1,5 +1,31 @@
 [
   {
+    "version": "0.60.0",
+    "date": "2026-08-24",
+    "changes": [
+      {
+        "type": "feature",
+        "description": "实现 16 项猎人技能: 涵盖陷阱 / 猎鹰战斗与辅助 / 远程攻击"
+      },
+      {
+        "type": "feature",
+        "description": "实现 9 项刺客技能: 涵盖伪装 / 武器攻击 / 范围伤害与中毒"
+      },
+      {
+        "type": "feature",
+        "description": "实现 11 项铁匠技能: 涵盖被动强化 / 控场 / 增益 / 拾取与掉落"
+      },
+      {
+        "type": "fix",
+        "description": "修复双持职业的单手武器无法显示或选择左手装备位的问题"
+      },
+      {
+        "type": "fix",
+        "description": "修复猎人的灵魂状态下动物杀手未按基础 STR 增加伤害的问题"
+      }
+    ]
+  },
+  {
     "version": "0.59.0",
     "date": "2026-08-24",
     "changes": [

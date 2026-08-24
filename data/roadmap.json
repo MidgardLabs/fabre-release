@@ -1,5 +1,5 @@
 {
-  "version": "0.59.0",
+  "version": "0.60.0",
   "groups": [
     {
       "name": "登录服务器",
@@ -765,7 +765,7 @@
           "status": "done"
         },
         {
-          "title": "二转职业技能 63/223",
+          "title": "二转职业技能 116/223",
           "status": "in-progress"
         },
         {
@@ -851,16 +851,16 @@
           "status": "done"
         },
         {
-          "title": "铁匠 1/24",
-          "status": "in-progress"
+          "title": "铁匠 24/24",
+          "status": "done"
         },
         {
-          "title": "猎人 1/19",
-          "status": "in-progress"
+          "title": "猎人 19/19",
+          "status": "done"
         },
         {
-          "title": "刺客 0/12",
-          "status": "planned"
+          "title": "刺客 12/12",
+          "status": "done"
         },
         {
           "title": "十字军 7/19",
@@ -875,7 +875,7 @@
           "status": "in-progress"
         },
         {
-          "title": "流氓 3/21",
+          "title": "流氓 4/21",
           "status": "in-progress"
         },
         {
