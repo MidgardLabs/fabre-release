@@ -1,5 +1,63 @@
 [
   {
+    "version": "0.59.0",
+    "date": "2026-08-24",
+    "changes": [
+      {
+        "type": "feature",
+        "description": "实现精灵合成系统: 玩家可消耗指定材料并获得随机物品奖励"
+      },
+      {
+        "type": "feature",
+        "description": "实现精灵改造系统: 玩家可按规则为装备添加随机选项或调整精炼等级"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `laphine_synthesis` 脚本指令: 打开精灵合成界面"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `laphine_upgrade` 脚本指令: 打开精灵改造界面"
+      },
+      {
+        "type": "feature",
+        "description": "实现精灵合成与改造规则热重载: `@reloaditemdb` 在线应用自定义规则"
+      },
+      {
+        "type": "feature",
+        "description": "实现任务成就联动: 可按接取 / 推进 / 完成 / 删除等事件配置自定义成就"
+      },
+      {
+        "type": "feature",
+        "description": "实现大主教的集结技能: 队长可将同地图且允许召集的存活队员传送至身边"
+      },
+      {
+        "type": "fix",
+        "description": "修复公会城战地图的伤害与反射伤害未按配置倍率结算的问题"
+      },
+      {
+        "type": "fix",
+        "description": "修复公会城战专用消耗品的增伤 / 减伤与生命值 / 魔法值消耗未生效的问题"
+      },
+      {
+        "type": "fix",
+        "description": "修复公会城战地图可使用黑色幻影技能的问题"
+      },
+      {
+        "type": "fix",
+        "description": "修复 `hide_woe_damage` 未隐藏技能与部分城战伤害数字的问题"
+      },
+      {
+        "type": "fix",
+        "description": "修复公会城战地图死亡玩家不会自动返回存档点的问题"
+      },
+      {
+        "type": "fix",
+        "description": "修复任务专属掉落因背包超重 / 已满而失败时没有提示的问题"
+      }
+    ]
+  },
+  {
     "version": "0.58.0",
     "date": "2026-08-23",
     "changes": [

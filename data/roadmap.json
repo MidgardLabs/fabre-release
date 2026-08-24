@@ -1,5 +1,5 @@
 {
-  "version": "0.58.0",
+  "version": "0.59.0",
   "groups": [
     {
       "name": "登录服务器",
@@ -700,15 +700,15 @@
         },
         {
           "title": "GvG 战斗规则",
-          "status": "in-progress"
+          "status": "done"
         },
         {
           "title": "城战系统",
-          "status": "planned"
+          "status": "done"
         },
         {
           "title": "城堡归属",
-          "status": "planned"
+          "status": "done"
         },
         {
           "title": "战场匹配队列",
@@ -769,7 +769,7 @@
           "status": "in-progress"
         },
         {
-          "title": "三转职业技能 10/266",
+          "title": "三转职业技能 11/266",
           "status": "in-progress"
         },
         {
@@ -908,8 +908,8 @@
           "status": "planned"
         },
         {
-          "title": "大主教 0/22",
-          "status": "planned"
+          "title": "大主教 1/22",
+          "status": "in-progress"
         },
         {
           "title": "机械工匠 0/31",
@@ -1341,12 +1341,12 @@
           "status": "done"
         },
         {
-          "title": "精灵合成箱（Laphine Synthesis）",
-          "status": "planned"
+          "title": "精灵合成（Laphine Synthesis）",
+          "status": "done"
         },
         {
-          "title": "精灵升级（Laphine Upgrade）",
-          "status": "planned"
+          "title": "精灵改造（Laphine Upgrade）",
+          "status": "done"
         }
       ]
     },
@@ -1471,7 +1471,7 @@
         },
         {
           "title": "任务专属掉落",
-          "status": "planned"
+          "status": "done"
         },
         {
           "title": "副本任务地图匹配",
@@ -1479,7 +1479,7 @@
         },
         {
           "title": "成就联动条件判定",
-          "status": "planned"
+          "status": "done"
         }
       ]
     },
@@ -1717,7 +1717,7 @@
         },
         {
           "title": "召集屏蔽开关",
-          "status": "in-progress"
+          "status": "done"
         },
         {
           "title": "时装隐藏开关",
@@ -1989,7 +1989,7 @@
           "status": "done"
         },
         {
-          "title": "脚本指令集 513/605",
+          "title": "脚本指令集 515/605",
           "status": "in-progress"
         },
         {
