@@ -1,5 +1,5 @@
 {
-  "version": "0.60.0",
+  "version": "0.61.0",
   "groups": [
     {
       "name": "登录服务器",
@@ -712,15 +712,15 @@
         },
         {
           "title": "战场匹配队列",
-          "status": "planned"
+          "status": "done"
         },
         {
           "title": "战场队伍",
-          "status": "planned"
+          "status": "done"
         },
         {
           "title": "战场比赛",
-          "status": "planned"
+          "status": "done"
         },
         {
           "title": "决斗系统",
@@ -1329,7 +1329,7 @@
         },
         {
           "title": "搜索商店",
-          "status": "planned"
+          "status": "done"
         }
       ]
     },
@@ -1903,7 +1903,7 @@
           "status": "done"
         },
         {
-          "title": "管理员指令集 216/288",
+          "title": "管理员指令集 220/288",
           "status": "in-progress"
         },
         {
