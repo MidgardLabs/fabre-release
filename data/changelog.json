@@ -1,5 +1,91 @@
 [
   {
+    "version": "0.62.0",
+    "date": "2026-08-26",
+    "changes": [
+      {
+        "type": "feature",
+        "description": "实现 `default_bind_on_equip` 配置项: 设置物品首次穿戴时的绑定范围"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `@cloneequip` 管理员指令: 复制在线角色的当前装备"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `@clonestat` 管理员指令: 复制在线角色的属性"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `@adopt` 管理员指令: 向在线角色发起领养请求"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `@marry` 管理员指令: 直接让当前角色与指定在线角色结婚"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `@divorce` 管理员指令: 解除当前角色婚姻, 配偶无需在线"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `@changecharsex` 管理员指令: 仅切换单个角色性别, 完成后目标需重新登录"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `@model` 管理员指令: 同时修改角色发型 / 发色 / 服装颜色"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `@bodystyle` 管理员指令: 切换或恢复职业备用体型"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `@font` 管理员指令: 设置角色的客户端消息字体"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `@changegm` 管理员指令: 将公会会长转移给指定在线成员"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `@clanspy` 管理员指令: 监听氏族聊天 (需启用 `enable_spy`)"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `@partyspy` 管理员指令: 监听队伍聊天 (需启用 `enable_spy`)"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `@roulette` 管理员指令: 为角色打开乐透大转盘界面"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `@nuke` 管理员指令: 让指定在线角色自爆并伤害附近有效目标"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `@feelreset` 管理员指令: 清除拳圣系角色的地图标记"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `@hatereset` 管理员指令: 清除拳圣系角色的魔物标记"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `@showrate` 管理员指令: 切换换图时的个人倍率信息, 旧版客户端不显示"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `setfont` 脚本指令: 切换角色的客户端消息字体"
+      },
+      {
+        "type": "fix",
+        "description": "修复 MySQL 下多名角色同时加入公会 / 氏族可能超过成员上限的问题"
+      }
+    ]
+  },
+  {
     "version": "0.61.0",
     "date": "2026-08-25",
     "changes": [

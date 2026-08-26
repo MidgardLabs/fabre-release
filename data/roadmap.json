@@ -1,5 +1,5 @@
 {
-  "version": "0.61.0",
+  "version": "0.62.0",
   "groups": [
     {
       "name": "登录服务器",
@@ -785,7 +785,7 @@
           "status": "planned"
         },
         {
-          "title": "NPC 技能 5/173",
+          "title": "NPC 技能 6/173",
           "status": "in-progress"
         },
         {
@@ -1903,7 +1903,7 @@
           "status": "done"
         },
         {
-          "title": "管理员指令集 220/288",
+          "title": "管理员指令集 237/288",
           "status": "in-progress"
         },
         {
@@ -1989,7 +1989,7 @@
           "status": "done"
         },
         {
-          "title": "脚本指令集 515/605",
+          "title": "脚本指令集 517/605",
           "status": "in-progress"
         },
         {
