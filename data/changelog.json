@@ -1,5 +1,255 @@
 [
   {
+    "version": "0.63.0",
+    "date": "2026-09-01",
+    "changes": [
+      {
+        "type": "feature",
+        "description": "实现 12 项十字军技能: 涵盖防御 / 盾牌战斗 / 牺牲与圣十字系能力"
+      },
+      {
+        "type": "feature",
+        "description": "实现 15 项炼金术师技能: 涵盖配药 / 投掷 / 化学保护与生命体能力"
+      },
+      {
+        "type": "feature",
+        "description": "实现 17 项流氓技能: 涵盖偷窃 / 卸装 / 涂鸦 / 抄袭与控制"
+      },
+      {
+        "type": "feature",
+        "description": "实现 17 项武道家技能: 涵盖气弹 / 连招 / 防御 / 位移与爆发"
+      },
+      {
+        "type": "feature",
+        "description": "实现 21 项贤者技能: 涵盖元素附加 / 属性领域 / 施法干预与辅助"
+      },
+      {
+        "type": "feature",
+        "description": "实现 28 项吟游诗人 / 舞娘技能: 涵盖独奏 / 舞蹈 / 合奏与控制"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `npcskill` 脚本指令: 让当前 NPC 按指定属性施放技能"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `getbattleflag` 脚本指令: 读取当前战斗配置"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `setbattleflag` 脚本指令: 临时调整战斗配置"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `getitembound` 系列脚本指令: 发放带实例属性 / 随机选项与升阶等级的绑定物品"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `@accinfo` 管理员指令: 查询账号与角色资料"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `@option` 管理员指令: 修改角色状态与外观效果"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `@addfame` 管理员指令: 调整职业名声与排行榜"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `@loadnpc` 管理员指令: 在线加载单个 NPC 脚本"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `@recallall` 管理员指令: 将全部可召回角色传送至当前角色"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `@partyrecall` 管理员指令: 将指定队伍在线成员传送至当前角色"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `@kickall` 管理员指令: 踢出权限范围内的在线角色"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `@summon` 管理员指令: 临时召唤跟随当前角色的魔物"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `@clone` 管理员指令: 生成支援型玩家克隆体"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `@slaveclone` 管理员指令: 生成跟随当前角色的支援型克隆体"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `@evilclone` 管理员指令: 生成主动攻击的玩家克隆体"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `@disguise` 管理员指令: 将当前角色临时伪装成魔物或 NPC"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `@undisguise` 管理员指令: 恢复当前角色的正常外观"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `@disguiseall` 管理员指令: 统一伪装全部在线角色"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `@undisguiseall` 管理员指令: 恢复全部在线角色的正常外观"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `@disguiseguild` 管理员指令: 统一伪装指定公会的在线成员"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `@undisguiseguild` 管理员指令: 恢复指定公会在线成员的外观"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `@email` 管理员指令: 修改当前账号的邮箱"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `@ban` 管理员指令: 临时封禁角色所属账号"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `@unban` 管理员指令: 解除账号临时封禁"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `@char_block` 管理员指令: 永久封锁角色所属账号"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `@char_unblock` 管理员指令: 解除账号永久封锁"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `@char_ban` 管理员指令: 临时封禁单个角色"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `@char_unban` 管理员指令: 解除角色临时封禁"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `@jail` 管理员指令: 永久监禁在线角色"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `@jailfor` 管理员指令: 设置或调整角色的限时监禁刑期"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `@jailtime` 管理员指令: 查询剩余监禁刑期"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `@unjail` 管理员指令: 解除角色监禁"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `@set` 管理员指令: 读取或修改各作用域脚本变量"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `@setbattleflag` 管理员指令: 临时调整战斗配置, 地图服务器重启后恢复"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `@itembound` 系列管理员指令: 创建带实例属性的绑定物品"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `@mobsearch` 管理员指令: 查询当前地图的存活与待重生魔物"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `@mobinfo` 管理员指令: 查询魔物属性 / 经验与掉落"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `@whodrops` 管理员指令: 查询物品的魔物掉落来源"
+      },
+      {
+        "type": "feature",
+        "description": "实现魔物物品掉率倍率数据库: 可按物品及魔物组合覆盖掉率"
+      },
+      {
+        "type": "feature",
+        "description": "实现随机技能数据库: 可自定义海市蜃楼的随机技能候选"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `atc_slave_clone_limit` 配置项: 限制每名角色的从属克隆数量"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `atcommand_mobinfo_type` 配置项: 控制魔物查询的掉落展示方式"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `mvp_exp_rate` 配置项: 调整 MVP 奖励经验"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `item_rate_treasure` 配置项: 调整宝箱类魔物的掉率"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `item_drop_treasure_min` 配置项: 设置宝箱类物品掉率下限"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `item_drop_treasure_max` 配置项: 设置宝箱类物品掉率上限"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `vip_drop_increase` 配置项: 设置 VIP 玩家的掉率加成"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `drop_rate_cap` 配置项: 设置普通玩家的掉率上限"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `drop_rate_cap_vip` 配置项: 设置 VIP 玩家的掉率上限"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `max_lv` 配置项: 设置客户端可见等级上限"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `aura_lv` 配置项: 设置客户端光环等级阈值"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `client_limit_unit_lv` 配置项: 选择应用等级压缩的单位类型"
+      },
+      {
+        "type": "fix",
+        "description": "修复二转技能在异常施放及魔法反射时的结算偏差"
+      },
+      {
+        "type": "fix",
+        "description": "修复宽广配药制作失败时没有消耗应扣材料的问题"
+      },
+      {
+        "type": "fix",
+        "description": "修复队伍 / 公会成员变动时绑定物品未删除或回收的问题"
+      }
+    ]
+  },
+  {
     "version": "0.62.0",
     "date": "2026-08-26",
     "changes": [
