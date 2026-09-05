@@ -1,5 +1,43 @@
 [
   {
+    "version": "0.64.0",
+    "date": "2026-09-05",
+    "changes": [
+      {
+        "type": "feature",
+        "description": "实现 `duplicate_dynamic` 脚本指令: 为指定玩家创建临时专属 NPC, 包括商店"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `nodynamicnpc` 地图标记: 禁止当前地图创建新的临时专属 NPC"
+      },
+      {
+        "type": "feature",
+        "description": "实现 4 项动态 NPC 配置选项: 调整无交互超时 / 生成范围与朝向"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `transform`, `active_transform` 脚本指令: 使脚本可将玩家变身为指定怪物"
+      },
+      {
+        "type": "feature",
+        "description": "实现 `mon_trans_disable_in_gvg` 配置项: 可禁止 GVG 地图怪物变身"
+      },
+      {
+        "type": "fix",
+        "description": "修复角色登录时部分数据加载失败后原有记录被清空的问题"
+      },
+      {
+        "type": "fix",
+        "description": "修复复兴后模式下 \"大声呐喊\" 会向死亡队员显示失败效果或影响已离队角色的问题"
+      },
+      {
+        "type": "fix",
+        "description": "修复复兴后模式下 \"操控乐器\" 在角色没有状态效果时错误提高 ASPD 的问题"
+      }
+    ]
+  },
+  {
     "version": "0.63.0",
     "date": "2026-09-01",
     "changes": [

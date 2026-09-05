@@ -1,5 +1,5 @@
 {
-  "version": "0.63.0",
+  "version": "0.64.0",
   "groups": [
     {
       "name": "登录服务器",
@@ -1842,7 +1842,7 @@
           "status": "done"
         },
         {
-          "title": "地图标记集 73/79",
+          "title": "地图标记集 74/79",
           "status": "in-progress"
         },
         {
@@ -2041,7 +2041,7 @@
           "status": "done"
         },
         {
-          "title": "脚本指令集 519/605",
+          "title": "脚本指令集 521/605",
           "status": "in-progress"
         },
         {
