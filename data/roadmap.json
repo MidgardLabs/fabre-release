@@ -1,5 +1,5 @@
 {
-  "version": "0.64.0",
+  "version": "0.65.0",
   "groups": [
     {
       "name": "登录服务器",
@@ -769,7 +769,7 @@
           "status": "done"
         },
         {
-          "title": "三转职业技能 11/266",
+          "title": "三转职业技能 12/266",
           "status": "in-progress"
         },
         {
@@ -801,8 +801,8 @@
           "status": "done"
         },
         {
-          "title": "元素精灵技能 7/51",
-          "status": "in-progress"
+          "title": "元素精灵技能 51/51",
+          "status": "done"
         }
       ]
     },
@@ -924,7 +924,7 @@
           "status": "planned"
         },
         {
-          "title": "妖术师 9/28",
+          "title": "妖术师 10/28",
           "status": "in-progress"
         },
         {
@@ -1158,24 +1158,24 @@
       "name": "地图服务器 · 元素精灵技能",
       "items": [
         {
-          "title": "火元素精灵 3/12",
-          "status": "in-progress"
+          "title": "火元素精灵 12/12",
+          "status": "done"
         },
         {
-          "title": "水元素精灵 1/12",
-          "status": "in-progress"
+          "title": "水元素精灵 12/12",
+          "status": "done"
         },
         {
-          "title": "风元素精灵 1/12",
-          "status": "in-progress"
+          "title": "风元素精灵 12/12",
+          "status": "done"
         },
         {
-          "title": "地元素精灵 1/12",
-          "status": "in-progress"
+          "title": "地元素精灵 12/12",
+          "status": "done"
         },
         {
-          "title": "毒元素精灵 1/3",
-          "status": "in-progress"
+          "title": "毒元素精灵 3/3",
+          "status": "done"
         }
       ]
     },
